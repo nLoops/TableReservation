@@ -6,7 +6,7 @@
 #import <Foundation/NSString.h>
 #import <Foundation/NSValue.h>
 
-@class TableReservationTableReservation, TableReservationTableRestaurantOption, TableReservationTableRestaurant, TableReservationHomeReservationEvents, TableReservationHomeReservationEventsGetReservationList, TableReservationHomeReservationEventsLoadDefault, TableReservationCoreViewModelCompanion, TableReservationCoreViewModel, TableReservationHomeReservationViewState, TableReservationCoreCommonFlow<T>, TableReservationKotlinUnit, TableReservationKotlinThrowable, TableReservationKotlinArray<T>, TableReservationKotlinException, TableReservationKotlinRuntimeException, TableReservationKotlinIllegalStateException;
+@class TableReservationTableReservation, TableReservationTableRestaurantOption, TableReservationTableRestaurant, TableReservationHomeReservationEvents, TableReservationRestaurantFilter, TableReservationHomeReservationEventsFilterRestaurant, TableReservationHomeReservationEventsGetReservationList, TableReservationHomeReservationEventsLoadDefault, TableReservationCoreViewModelCompanion, TableReservationCoreViewModel, TableReservationHomeReservationViewState, TableReservationCoreCommonFlow<T>, TableReservationKotlinUnit, TableReservationKotlinThrowable, TableReservationKotlinArray<T>, TableReservationKotlinException, TableReservationKotlinRuntimeException, TableReservationKotlinIllegalStateException;
 
 @protocol TableReservationKotlinx_coroutines_coreCoroutineScope, TableReservationCoreViewState, TableReservationKotlinCoroutineContext, TableReservationKotlinx_coroutines_coreFlowCollector, TableReservationKotlinx_coroutines_coreFlow, TableReservationKtor_ioCloseable, TableReservationKotlinCoroutineContextElement, TableReservationKotlinCoroutineContextKey, TableReservationKotlinIterator;
 
@@ -187,13 +187,14 @@ __attribute__((swift_name("TableReservation")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("TableRestaurant")))
 @interface TableReservationTableRestaurant : TableReservationBase
-- (instancetype)initWithId:(NSString *)id name:(NSString *)name cuisine:(NSString *)cuisine distance:(NSString *)distance address:(NSString *)address coverPicture:(NSString *)coverPicture logoPicture:(NSString *)logoPicture rating:(NSString *)rating ratingCount:(int32_t)ratingCount about:(NSString *)about images:(NSArray<NSString *> *)images options:(NSArray<TableReservationTableRestaurantOption *> *)options menuLink:(NSString *)menuLink mapLink:(NSString *)mapLink __attribute__((swift_name("init(id:name:cuisine:distance:address:coverPicture:logoPicture:rating:ratingCount:about:images:options:menuLink:mapLink:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithId:(NSString *)id name:(NSString *)name cuisine:(NSString *)cuisine distance:(NSString *)distance address:(NSString *)address coverPicture:(NSString *)coverPicture logoPicture:(NSString *)logoPicture rating:(NSString *)rating ratingCount:(int32_t)ratingCount about:(NSString *)about images:(NSArray<NSString *> *)images options:(NSArray<TableReservationTableRestaurantOption *> *)options menuLink:(NSString *)menuLink mapLink:(NSString *)mapLink areaId:(int32_t)areaId __attribute__((swift_name("init(id:name:cuisine:distance:address:coverPicture:logoPicture:rating:ratingCount:about:images:options:menuLink:mapLink:areaId:)"))) __attribute__((objc_designated_initializer));
 - (NSString *)component1 __attribute__((swift_name("component1()")));
 - (NSString *)component10 __attribute__((swift_name("component10()")));
 - (NSArray<NSString *> *)component11 __attribute__((swift_name("component11()")));
 - (NSArray<TableReservationTableRestaurantOption *> *)component12 __attribute__((swift_name("component12()")));
 - (NSString *)component13 __attribute__((swift_name("component13()")));
 - (NSString *)component14 __attribute__((swift_name("component14()")));
+- (int32_t)component15 __attribute__((swift_name("component15()")));
 - (NSString *)component2 __attribute__((swift_name("component2()")));
 - (NSString *)component3 __attribute__((swift_name("component3()")));
 - (NSString *)component4 __attribute__((swift_name("component4()")));
@@ -202,12 +203,13 @@ __attribute__((swift_name("TableRestaurant")))
 - (NSString *)component7 __attribute__((swift_name("component7()")));
 - (NSString *)component8 __attribute__((swift_name("component8()")));
 - (int32_t)component9 __attribute__((swift_name("component9()")));
-- (TableReservationTableRestaurant *)doCopyId:(NSString *)id name:(NSString *)name cuisine:(NSString *)cuisine distance:(NSString *)distance address:(NSString *)address coverPicture:(NSString *)coverPicture logoPicture:(NSString *)logoPicture rating:(NSString *)rating ratingCount:(int32_t)ratingCount about:(NSString *)about images:(NSArray<NSString *> *)images options:(NSArray<TableReservationTableRestaurantOption *> *)options menuLink:(NSString *)menuLink mapLink:(NSString *)mapLink __attribute__((swift_name("doCopy(id:name:cuisine:distance:address:coverPicture:logoPicture:rating:ratingCount:about:images:options:menuLink:mapLink:)")));
+- (TableReservationTableRestaurant *)doCopyId:(NSString *)id name:(NSString *)name cuisine:(NSString *)cuisine distance:(NSString *)distance address:(NSString *)address coverPicture:(NSString *)coverPicture logoPicture:(NSString *)logoPicture rating:(NSString *)rating ratingCount:(int32_t)ratingCount about:(NSString *)about images:(NSArray<NSString *> *)images options:(NSArray<TableReservationTableRestaurantOption *> *)options menuLink:(NSString *)menuLink mapLink:(NSString *)mapLink areaId:(int32_t)areaId __attribute__((swift_name("doCopy(id:name:cuisine:distance:address:coverPicture:logoPicture:rating:ratingCount:about:images:options:menuLink:mapLink:areaId:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) NSString *about __attribute__((swift_name("about")));
 @property (readonly) NSString *address __attribute__((swift_name("address")));
+@property (readonly) int32_t areaId __attribute__((swift_name("areaId")));
 @property (readonly) NSString *coverPicture __attribute__((swift_name("coverPicture")));
 @property (readonly) NSString *cuisine __attribute__((swift_name("cuisine")));
 @property (readonly) NSString *distance __attribute__((swift_name("distance")));
@@ -240,6 +242,18 @@ __attribute__((swift_name("TableRestaurantOption")))
 
 __attribute__((swift_name("HomeReservationEvents")))
 @interface TableReservationHomeReservationEvents : TableReservationBase
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("HomeReservationEvents.FilterRestaurant")))
+@interface TableReservationHomeReservationEventsFilterRestaurant : TableReservationHomeReservationEvents
+- (instancetype)initWithCriteria:(TableReservationRestaurantFilter *)criteria __attribute__((swift_name("init(criteria:)"))) __attribute__((objc_designated_initializer));
+- (TableReservationRestaurantFilter *)component1 __attribute__((swift_name("component1()")));
+- (TableReservationHomeReservationEventsFilterRestaurant *)doCopyCriteria:(TableReservationRestaurantFilter *)criteria __attribute__((swift_name("doCopy(criteria:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) TableReservationRestaurantFilter *criteria __attribute__((swift_name("criteria")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
@@ -305,6 +319,24 @@ __attribute__((swift_name("HomeReservationViewState")))
 @property (readonly) BOOL isLoading __attribute__((swift_name("isLoading")));
 @property (readonly) NSArray<TableReservationTableReservation *> *reservations __attribute__((swift_name("reservations")));
 @property (readonly) NSArray<TableReservationTableRestaurant *> *restaurants __attribute__((swift_name("restaurants")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("RestaurantFilter")))
+@interface TableReservationRestaurantFilter : TableReservationBase
+- (instancetype)initWithQuery:(NSString *)query areas:(NSArray<TableReservationInt *> *)areas cousine:(NSArray<NSString *> *)cousine city:(NSArray<NSString *> *)city __attribute__((swift_name("init(query:areas:cousine:city:)"))) __attribute__((objc_designated_initializer));
+- (NSString *)component1 __attribute__((swift_name("component1()")));
+- (NSArray<TableReservationInt *> *)component2 __attribute__((swift_name("component2()")));
+- (NSArray<NSString *> *)component3 __attribute__((swift_name("component3()")));
+- (NSArray<NSString *> *)component4 __attribute__((swift_name("component4()")));
+- (TableReservationRestaurantFilter *)doCopyQuery:(NSString *)query areas:(NSArray<TableReservationInt *> *)areas cousine:(NSArray<NSString *> *)cousine city:(NSArray<NSString *> *)city __attribute__((swift_name("doCopy(query:areas:cousine:city:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSArray<TableReservationInt *> *areas __attribute__((swift_name("areas")));
+@property (readonly) NSArray<NSString *> *city __attribute__((swift_name("city")));
+@property (readonly) NSArray<NSString *> *cousine __attribute__((swift_name("cousine")));
+@property (readonly) NSString *query __attribute__((swift_name("query")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
