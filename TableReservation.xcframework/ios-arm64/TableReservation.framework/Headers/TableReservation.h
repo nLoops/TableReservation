@@ -1342,39 +1342,39 @@ __attribute__((swift_name("Cuisine")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("Reservation")))
 @interface TableReservationReservation : TableReservationBase
-- (instancetype)initWithId:(NSString *)id startTime:(NSString *)startTime endTime:(NSString *)endTime totalAmount:(double)totalAmount remarks:(NSString *)remarks referenceNo:(NSString *)referenceNo createdAt:(NSString *)createdAt updatedAt:(NSString *)updatedAt status:(NSString *)status tableType:(NSString *)tableType zone:(NSString *)zone venue:(NSString *)venue venueId:(NSString *)venueId latitude:(double)latitude longitude:(double)longitude venueLogoUrl:(NSString *)venueLogoUrl __attribute__((swift_name("init(id:startTime:endTime:totalAmount:remarks:referenceNo:createdAt:updatedAt:status:tableType:zone:venue:venueId:latitude:longitude:venueLogoUrl:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithId:(NSString *)id totalAmount:(double)totalAmount remarks:(NSString *)remarks referenceNo:(NSString *)referenceNo status:(NSString *)status tableType:(NSString *)tableType zone:(NSString *)zone venue:(NSString *)venue venueId:(NSString *)venueId latitude:(double)latitude longitude:(double)longitude venueLogoUrl:(NSString *)venueLogoUrl fullDate:(NSString *)fullDate shortDate:(NSString *)shortDate time:(NSString *)time isActive:(BOOL)isActive __attribute__((swift_name("init(id:totalAmount:remarks:referenceNo:status:tableType:zone:venue:venueId:latitude:longitude:venueLogoUrl:fullDate:shortDate:time:isActive:)"))) __attribute__((objc_designated_initializer));
 - (NSString *)component1 __attribute__((swift_name("component1()")));
-- (NSString *)component10 __attribute__((swift_name("component10()")));
-- (NSString *)component11 __attribute__((swift_name("component11()")));
+- (double)component10 __attribute__((swift_name("component10()")));
+- (double)component11 __attribute__((swift_name("component11()")));
 - (NSString *)component12 __attribute__((swift_name("component12()")));
 - (NSString *)component13 __attribute__((swift_name("component13()")));
-- (double)component14 __attribute__((swift_name("component14()")));
-- (double)component15 __attribute__((swift_name("component15()")));
-- (NSString *)component16 __attribute__((swift_name("component16()")));
-- (NSString *)component2 __attribute__((swift_name("component2()")));
+- (NSString *)component14 __attribute__((swift_name("component14()")));
+- (NSString *)component15 __attribute__((swift_name("component15()")));
+- (BOOL)component16 __attribute__((swift_name("component16()")));
+- (double)component2 __attribute__((swift_name("component2()")));
 - (NSString *)component3 __attribute__((swift_name("component3()")));
-- (double)component4 __attribute__((swift_name("component4()")));
+- (NSString *)component4 __attribute__((swift_name("component4()")));
 - (NSString *)component5 __attribute__((swift_name("component5()")));
 - (NSString *)component6 __attribute__((swift_name("component6()")));
 - (NSString *)component7 __attribute__((swift_name("component7()")));
 - (NSString *)component8 __attribute__((swift_name("component8()")));
 - (NSString *)component9 __attribute__((swift_name("component9()")));
-- (TableReservationReservation *)doCopyId:(NSString *)id startTime:(NSString *)startTime endTime:(NSString *)endTime totalAmount:(double)totalAmount remarks:(NSString *)remarks referenceNo:(NSString *)referenceNo createdAt:(NSString *)createdAt updatedAt:(NSString *)updatedAt status:(NSString *)status tableType:(NSString *)tableType zone:(NSString *)zone venue:(NSString *)venue venueId:(NSString *)venueId latitude:(double)latitude longitude:(double)longitude venueLogoUrl:(NSString *)venueLogoUrl __attribute__((swift_name("doCopy(id:startTime:endTime:totalAmount:remarks:referenceNo:createdAt:updatedAt:status:tableType:zone:venue:venueId:latitude:longitude:venueLogoUrl:)")));
+- (TableReservationReservation *)doCopyId:(NSString *)id totalAmount:(double)totalAmount remarks:(NSString *)remarks referenceNo:(NSString *)referenceNo status:(NSString *)status tableType:(NSString *)tableType zone:(NSString *)zone venue:(NSString *)venue venueId:(NSString *)venueId latitude:(double)latitude longitude:(double)longitude venueLogoUrl:(NSString *)venueLogoUrl fullDate:(NSString *)fullDate shortDate:(NSString *)shortDate time:(NSString *)time isActive:(BOOL)isActive __attribute__((swift_name("doCopy(id:totalAmount:remarks:referenceNo:status:tableType:zone:venue:venueId:latitude:longitude:venueLogoUrl:fullDate:shortDate:time:isActive:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) NSString *createdAt __attribute__((swift_name("createdAt")));
-@property (readonly) NSString *endTime __attribute__((swift_name("endTime")));
+@property (readonly) NSString *fullDate __attribute__((swift_name("fullDate")));
 @property (readonly) NSString *id __attribute__((swift_name("id")));
+@property (readonly) BOOL isActive __attribute__((swift_name("isActive")));
 @property (readonly) double latitude __attribute__((swift_name("latitude")));
 @property (readonly) double longitude __attribute__((swift_name("longitude")));
 @property (readonly) NSString *referenceNo __attribute__((swift_name("referenceNo")));
 @property (readonly) NSString *remarks __attribute__((swift_name("remarks")));
-@property (readonly) NSString *startTime __attribute__((swift_name("startTime")));
+@property (readonly) NSString *shortDate __attribute__((swift_name("shortDate")));
 @property (readonly) NSString *status __attribute__((swift_name("status")));
 @property (readonly) NSString *tableType __attribute__((swift_name("tableType")));
+@property (readonly) NSString *time __attribute__((swift_name("time")));
 @property (readonly) double totalAmount __attribute__((swift_name("totalAmount")));
-@property (readonly) NSString *updatedAt __attribute__((swift_name("updatedAt")));
 @property (readonly) NSString *venue __attribute__((swift_name("venue")));
 @property (readonly) NSString *venueId __attribute__((swift_name("venueId")));
 @property (readonly) NSString *venueLogoUrl __attribute__((swift_name("venueLogoUrl")));
@@ -1908,14 +1908,6 @@ __attribute__((swift_name("Config")))
 @property BOOL enableHttpLogs __attribute__((swift_name("enableHttpLogs")));
 @property BOOL isArabic __attribute__((swift_name("isArabic")));
 @property NSString *jwtToken __attribute__((swift_name("jwtToken")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("DateUtils")))
-@interface TableReservationDateUtils : TableReservationBase
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (NSString *)parseDateString:(NSString *)dateString pattern:(NSString *)pattern __attribute__((swift_name("parse(dateString:pattern:)")));
 @end;
 
 @interface TableReservationKotlinThrowable (Extensions)
