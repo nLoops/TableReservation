@@ -1920,6 +1920,7 @@ __attribute__((swift_name("RestaurantDetailsViewModel")))
 @interface TableReservationRestaurantDetailsViewModel : TableReservationCoreViewModel
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
 + (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (NSString *)findZoneByIdId:(int32_t)id __attribute__((swift_name("findZoneById(id:)")));
 - (void)onEventEvent:(TableReservationRestaurantDetailsEvents *)event __attribute__((swift_name("onEvent(event:)")));
 @property (readonly) TableReservationCoreCommonFlow<TableReservationRestaurantDetailsViewState *> *viewState __attribute__((swift_name("viewState")));
 @end;
@@ -1952,6 +1953,16 @@ __attribute__((swift_name("Config")))
 @property BOOL enableHttpLogs __attribute__((swift_name("enableHttpLogs")));
 @property BOOL isArabic __attribute__((swift_name("isArabic")));
 @property NSString *jwtToken __attribute__((swift_name("jwtToken")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("InMemoryCache")))
+@interface TableReservationInMemoryCache : TableReservationBase
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (id _Nullable)deleteKey:(NSString *)key __attribute__((swift_name("delete(key:)")));
+- (id _Nullable)readKey:(NSString *)key __attribute__((swift_name("read(key:)")));
+- (void)saveKey:(NSString *)key value:(id)value __attribute__((swift_name("save(key:value:)")));
 @end;
 
 @interface TableReservationKotlinThrowable (Extensions)
