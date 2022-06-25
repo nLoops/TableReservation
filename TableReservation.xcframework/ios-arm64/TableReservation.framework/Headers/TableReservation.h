@@ -1373,7 +1373,7 @@ __attribute__((swift_name("Cuisine")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("Reservation")))
 @interface TableReservationReservation : TableReservationBase
-- (instancetype)initWithId:(NSString *)id totalAmount:(double)totalAmount remarks:(NSString *)remarks referenceNo:(NSString *)referenceNo status:(NSString *)status tableType:(NSString *)tableType zone:(NSString *)zone venue:(NSString *)venue venueId:(NSString *)venueId mapUrl:(NSString *)mapUrl menuUrl:(NSString *)menuUrl personCount:(int32_t)personCount venueLogoUrl:(NSString *)venueLogoUrl fullDate:(NSString *)fullDate shortDate:(NSString *)shortDate time:(NSString *)time isActive:(BOOL)isActive guidelines:(NSString *)guidelines __attribute__((swift_name("init(id:totalAmount:remarks:referenceNo:status:tableType:zone:venue:venueId:mapUrl:menuUrl:personCount:venueLogoUrl:fullDate:shortDate:time:isActive:guidelines:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithUuid:(NSString *)uuid totalAmount:(double)totalAmount remarks:(NSString *)remarks referenceNo:(NSString *)referenceNo status:(NSString *)status tableType:(NSString *)tableType zone:(NSString *)zone venue:(NSString *)venue venueId:(NSString *)venueId mapUrl:(NSString *)mapUrl menuUrl:(NSString *)menuUrl personCount:(int32_t)personCount venueLogoUrl:(NSString *)venueLogoUrl fullDate:(NSString *)fullDate shortDate:(NSString *)shortDate time:(NSString *)time isActive:(BOOL)isActive guidelines:(NSString *)guidelines __attribute__((swift_name("init(uuid:totalAmount:remarks:referenceNo:status:tableType:zone:venue:venueId:mapUrl:menuUrl:personCount:venueLogoUrl:fullDate:shortDate:time:isActive:guidelines:)"))) __attribute__((objc_designated_initializer));
 - (NSString *)component1 __attribute__((swift_name("component1()")));
 - (NSString *)component10 __attribute__((swift_name("component10()")));
 - (NSString *)component11 __attribute__((swift_name("component11()")));
@@ -1392,13 +1392,12 @@ __attribute__((swift_name("Reservation")))
 - (NSString *)component7 __attribute__((swift_name("component7()")));
 - (NSString *)component8 __attribute__((swift_name("component8()")));
 - (NSString *)component9 __attribute__((swift_name("component9()")));
-- (TableReservationReservation *)doCopyId:(NSString *)id totalAmount:(double)totalAmount remarks:(NSString *)remarks referenceNo:(NSString *)referenceNo status:(NSString *)status tableType:(NSString *)tableType zone:(NSString *)zone venue:(NSString *)venue venueId:(NSString *)venueId mapUrl:(NSString *)mapUrl menuUrl:(NSString *)menuUrl personCount:(int32_t)personCount venueLogoUrl:(NSString *)venueLogoUrl fullDate:(NSString *)fullDate shortDate:(NSString *)shortDate time:(NSString *)time isActive:(BOOL)isActive guidelines:(NSString *)guidelines __attribute__((swift_name("doCopy(id:totalAmount:remarks:referenceNo:status:tableType:zone:venue:venueId:mapUrl:menuUrl:personCount:venueLogoUrl:fullDate:shortDate:time:isActive:guidelines:)")));
+- (TableReservationReservation *)doCopyUuid:(NSString *)uuid totalAmount:(double)totalAmount remarks:(NSString *)remarks referenceNo:(NSString *)referenceNo status:(NSString *)status tableType:(NSString *)tableType zone:(NSString *)zone venue:(NSString *)venue venueId:(NSString *)venueId mapUrl:(NSString *)mapUrl menuUrl:(NSString *)menuUrl personCount:(int32_t)personCount venueLogoUrl:(NSString *)venueLogoUrl fullDate:(NSString *)fullDate shortDate:(NSString *)shortDate time:(NSString *)time isActive:(BOOL)isActive guidelines:(NSString *)guidelines __attribute__((swift_name("doCopy(uuid:totalAmount:remarks:referenceNo:status:tableType:zone:venue:venueId:mapUrl:menuUrl:personCount:venueLogoUrl:fullDate:shortDate:time:isActive:guidelines:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) NSString *fullDate __attribute__((swift_name("fullDate")));
 @property (readonly) NSString *guidelines __attribute__((swift_name("guidelines")));
-@property (readonly) NSString *id __attribute__((swift_name("id")));
 @property (readonly) BOOL isActive __attribute__((swift_name("isActive")));
 @property (readonly) NSString *mapUrl __attribute__((swift_name("mapUrl")));
 @property (readonly) NSString *menuUrl __attribute__((swift_name("menuUrl")));
@@ -1410,6 +1409,7 @@ __attribute__((swift_name("Reservation")))
 @property (readonly) NSString *tableType __attribute__((swift_name("tableType")));
 @property (readonly) NSString *time __attribute__((swift_name("time")));
 @property (readonly) double totalAmount __attribute__((swift_name("totalAmount")));
+@property (readonly) NSString *uuid __attribute__((swift_name("uuid")));
 @property (readonly) NSString *venue __attribute__((swift_name("venue")));
 @property (readonly) NSString *venueId __attribute__((swift_name("venueId")));
 @property (readonly) NSString *venueLogoUrl __attribute__((swift_name("venueLogoUrl")));
@@ -1851,13 +1851,14 @@ __attribute__((swift_name("ReservationPaymentViewModel")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("ReservationPaymentViewState")))
 @interface TableReservationReservationPaymentViewState : TableReservationBase <TableReservationCoreViewState>
-- (instancetype)initWithSpecialOccasions:(NSArray<TableReservationSpecialOccasion *> *)specialOccasions confirmReservation:(TableReservationReserve * _Nullable)confirmReservation error:(NSString * _Nullable)error isEmpty:(BOOL)isEmpty isLoading:(BOOL)isLoading __attribute__((swift_name("init(specialOccasions:confirmReservation:error:isEmpty:isLoading:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithSpecialOccasions:(NSArray<TableReservationSpecialOccasion *> *)specialOccasions confirmReservation:(TableReservationReserve * _Nullable)confirmReservation reserveLoading:(BOOL)reserveLoading error:(NSString * _Nullable)error isEmpty:(BOOL)isEmpty isLoading:(BOOL)isLoading __attribute__((swift_name("init(specialOccasions:confirmReservation:reserveLoading:error:isEmpty:isLoading:)"))) __attribute__((objc_designated_initializer));
 - (NSArray<TableReservationSpecialOccasion *> *)component1 __attribute__((swift_name("component1()")));
 - (TableReservationReserve * _Nullable)component2 __attribute__((swift_name("component2()")));
-- (NSString * _Nullable)component3 __attribute__((swift_name("component3()")));
-- (BOOL)component4 __attribute__((swift_name("component4()")));
+- (BOOL)component3 __attribute__((swift_name("component3()")));
+- (NSString * _Nullable)component4 __attribute__((swift_name("component4()")));
 - (BOOL)component5 __attribute__((swift_name("component5()")));
-- (TableReservationReservationPaymentViewState *)doCopySpecialOccasions:(NSArray<TableReservationSpecialOccasion *> *)specialOccasions confirmReservation:(TableReservationReserve * _Nullable)confirmReservation error:(NSString * _Nullable)error isEmpty:(BOOL)isEmpty isLoading:(BOOL)isLoading __attribute__((swift_name("doCopy(specialOccasions:confirmReservation:error:isEmpty:isLoading:)")));
+- (BOOL)component6 __attribute__((swift_name("component6()")));
+- (TableReservationReservationPaymentViewState *)doCopySpecialOccasions:(NSArray<TableReservationSpecialOccasion *> *)specialOccasions confirmReservation:(TableReservationReserve * _Nullable)confirmReservation reserveLoading:(BOOL)reserveLoading error:(NSString * _Nullable)error isEmpty:(BOOL)isEmpty isLoading:(BOOL)isLoading __attribute__((swift_name("doCopy(specialOccasions:confirmReservation:reserveLoading:error:isEmpty:isLoading:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
@@ -1865,6 +1866,7 @@ __attribute__((swift_name("ReservationPaymentViewState")))
 @property (readonly) NSString * _Nullable error __attribute__((swift_name("error")));
 @property (readonly) BOOL isEmpty __attribute__((swift_name("isEmpty")));
 @property (readonly) BOOL isLoading __attribute__((swift_name("isLoading")));
+@property (readonly) BOOL reserveLoading __attribute__((swift_name("reserveLoading")));
 @property (readonly) NSArray<TableReservationSpecialOccasion *> *specialOccasions __attribute__((swift_name("specialOccasions")));
 @end;
 
