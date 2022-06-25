@@ -1572,6 +1572,7 @@ __attribute__((swift_name("CheckRestaurantAvailabilityViewModel")))
 @interface TableReservationCheckRestaurantAvailabilityViewModel : TableReservationCoreViewModel
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
 + (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (NSString *)findZoneByIdId:(int32_t)id __attribute__((swift_name("findZoneById(id:)")));
 - (void)onEventEvent:(TableReservationRestaurantAvailabilityEvents *)event __attribute__((swift_name("onEvent(event:)")));
 @property (readonly) TableReservationCoreCommonFlow<TableReservationRestaurantAvailabilityViewState *> *viewState __attribute__((swift_name("viewState")));
 @end;
@@ -1730,10 +1731,11 @@ __attribute__((swift_name("CoreViewState")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("HomeReservationViewState")))
 @interface TableReservationHomeReservationViewState : TableReservationBase <TableReservationCoreViewState>
-- (instancetype)initWithRestaurants:(NSArray<TableReservationVenue *> *)restaurants reservations:(NSArray<TableReservationReservation *> *)reservations areas:(NSArray<TableReservationArea *> *)areas zones:(NSArray<TableReservationZoneType *> *)zones cuisines:(NSArray<TableReservationCuisine *> *)cuisines cities:(NSArray<TableReservationCity *> *)cities venuesError:(NSString * _Nullable)venuesError reservationError:(NSString * _Nullable)reservationError error:(NSString * _Nullable)error isEmpty:(BOOL)isEmpty isLoading:(BOOL)isLoading __attribute__((swift_name("init(restaurants:reservations:areas:zones:cuisines:cities:venuesError:reservationError:error:isEmpty:isLoading:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithRestaurants:(NSArray<TableReservationVenue *> *)restaurants reservations:(NSArray<TableReservationReservation *> *)reservations areas:(NSArray<TableReservationArea *> *)areas zones:(NSArray<TableReservationZoneType *> *)zones cuisines:(NSArray<TableReservationCuisine *> *)cuisines cities:(NSArray<TableReservationCity *> *)cities venuesError:(NSString * _Nullable)venuesError reservationError:(NSString * _Nullable)reservationError isAreaEmpty:(BOOL)isAreaEmpty error:(NSString * _Nullable)error isEmpty:(BOOL)isEmpty isLoading:(BOOL)isLoading __attribute__((swift_name("init(restaurants:reservations:areas:zones:cuisines:cities:venuesError:reservationError:isAreaEmpty:error:isEmpty:isLoading:)"))) __attribute__((objc_designated_initializer));
 - (NSArray<TableReservationVenue *> *)component1 __attribute__((swift_name("component1()")));
-- (BOOL)component10 __attribute__((swift_name("component10()")));
+- (NSString * _Nullable)component10 __attribute__((swift_name("component10()")));
 - (BOOL)component11 __attribute__((swift_name("component11()")));
+- (BOOL)component12 __attribute__((swift_name("component12()")));
 - (NSArray<TableReservationReservation *> *)component2 __attribute__((swift_name("component2()")));
 - (NSArray<TableReservationArea *> *)component3 __attribute__((swift_name("component3()")));
 - (NSArray<TableReservationZoneType *> *)component4 __attribute__((swift_name("component4()")));
@@ -1741,8 +1743,8 @@ __attribute__((swift_name("HomeReservationViewState")))
 - (NSArray<TableReservationCity *> *)component6 __attribute__((swift_name("component6()")));
 - (NSString * _Nullable)component7 __attribute__((swift_name("component7()")));
 - (NSString * _Nullable)component8 __attribute__((swift_name("component8()")));
-- (NSString * _Nullable)component9 __attribute__((swift_name("component9()")));
-- (TableReservationHomeReservationViewState *)doCopyRestaurants:(NSArray<TableReservationVenue *> *)restaurants reservations:(NSArray<TableReservationReservation *> *)reservations areas:(NSArray<TableReservationArea *> *)areas zones:(NSArray<TableReservationZoneType *> *)zones cuisines:(NSArray<TableReservationCuisine *> *)cuisines cities:(NSArray<TableReservationCity *> *)cities venuesError:(NSString * _Nullable)venuesError reservationError:(NSString * _Nullable)reservationError error:(NSString * _Nullable)error isEmpty:(BOOL)isEmpty isLoading:(BOOL)isLoading __attribute__((swift_name("doCopy(restaurants:reservations:areas:zones:cuisines:cities:venuesError:reservationError:error:isEmpty:isLoading:)")));
+- (BOOL)component9 __attribute__((swift_name("component9()")));
+- (TableReservationHomeReservationViewState *)doCopyRestaurants:(NSArray<TableReservationVenue *> *)restaurants reservations:(NSArray<TableReservationReservation *> *)reservations areas:(NSArray<TableReservationArea *> *)areas zones:(NSArray<TableReservationZoneType *> *)zones cuisines:(NSArray<TableReservationCuisine *> *)cuisines cities:(NSArray<TableReservationCity *> *)cities venuesError:(NSString * _Nullable)venuesError reservationError:(NSString * _Nullable)reservationError isAreaEmpty:(BOOL)isAreaEmpty error:(NSString * _Nullable)error isEmpty:(BOOL)isEmpty isLoading:(BOOL)isLoading __attribute__((swift_name("doCopy(restaurants:reservations:areas:zones:cuisines:cities:venuesError:reservationError:isAreaEmpty:error:isEmpty:isLoading:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
@@ -1750,6 +1752,7 @@ __attribute__((swift_name("HomeReservationViewState")))
 @property (readonly) NSArray<TableReservationCity *> *cities __attribute__((swift_name("cities")));
 @property (readonly) NSArray<TableReservationCuisine *> *cuisines __attribute__((swift_name("cuisines")));
 @property (readonly) NSString * _Nullable error __attribute__((swift_name("error")));
+@property (readonly) BOOL isAreaEmpty __attribute__((swift_name("isAreaEmpty")));
 @property (readonly) BOOL isEmpty __attribute__((swift_name("isEmpty")));
 @property (readonly) BOOL isLoading __attribute__((swift_name("isLoading")));
 @property (readonly) NSString * _Nullable reservationError __attribute__((swift_name("reservationError")));
@@ -1920,7 +1923,6 @@ __attribute__((swift_name("RestaurantDetailsViewModel")))
 @interface TableReservationRestaurantDetailsViewModel : TableReservationCoreViewModel
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
 + (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (NSString *)findZoneByIdId:(int32_t)id __attribute__((swift_name("findZoneById(id:)")));
 - (void)onEventEvent:(TableReservationRestaurantDetailsEvents *)event __attribute__((swift_name("onEvent(event:)")));
 @property (readonly) TableReservationCoreCommonFlow<TableReservationRestaurantDetailsViewState *> *viewState __attribute__((swift_name("viewState")));
 @end;
