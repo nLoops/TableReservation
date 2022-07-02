@@ -6,7 +6,7 @@
 #import <Foundation/NSString.h>
 #import <Foundation/NSValue.h>
 
-@class TableReservationKotlinThrowable, TableReservationKotlinArray<T>, TableReservationKotlinException, TableReservationMappingException, TableReservationArea, TableReservationApiAreasResponse, TableReservationCancelReservation, TableReservationApiCancelReservationByUser, TableReservationCity, TableReservationApiCitiesResponse, TableReservationReserve, TableReservationApiReservationReserveResponse, TableReservationReservation, TableReservationApiReservationResponse, TableReservationRestaurantsAvailableSlots, TableReservationApiRestaurantsAvailableSlotsResponse, TableReservationSpecialOccasion, TableReservationApiSpecialOccasionsResponse, TableReservationApiAreaCompanion, TableReservationApiArea, TableReservationApiAreasPagedCompanion, TableReservationApiAreasPaged, TableReservationApiAreasResponseCompanion, TableReservationApiCancelReservationByUserCompanion, TableReservationCitiesList, TableReservationApiCitiesResponseCompanion, TableReservationApiCuisineCompanion, TableReservationApiCuisine, TableReservationApiCuisinesResponseCompanion, TableReservationApiCuisinesResponse, TableReservationApiReservationCompanion, TableReservationApiReservation, TableReservationApiReservationReserveCompanion, TableReservationApiReservationReserve, TableReservationApiReservationReserveResponseCompanion, TableReservationApiReservationResponseCompanion, TableReservationApiSlot, TableReservationApiRestaurantSlotsCompanion, TableReservationApiRestaurantSlots, TableReservationApiRestaurantsAvailableSlotsResponseCompanion, TableReservationApiSlotCompanion, TableReservationApiSpecialOccasionsCompanion, TableReservationApiSpecialOccasions, TableReservationApiSpecialOccasionsResponseCompanion, TableReservationApiVenueFeature, TableReservationApiVenueParking, TableReservationApiVenuePaymentOption, TableReservationApiVenuePic, TableReservationApiVenueWorkingDays, TableReservationApiVenueCuisine, TableReservationApiVenueCompanion, TableReservationApiVenue, TableReservationApiVenueByIdResponseCompanion, TableReservationApiVenueByIdResponse, TableReservationApiVenueCuisineCompanion, TableReservationApiVenueFeatureCompanion, TableReservationApiVenuePagedCompanion, TableReservationApiVenuePaged, TableReservationApiVenueParkingCompanion, TableReservationApiVenuePaymentOptionCompanion, TableReservationApiVenuePicCompanion, TableReservationApiVenueResponseCompanion, TableReservationApiVenueResponse, TableReservationVenueWorkingHour, TableReservationApiVenueWorkingDaysCompanion, TableReservationApiZoneTypeCompanion, TableReservationApiZoneType, TableReservationApiZoneTypeResponseCompanion, TableReservationApiZoneTypeResponse, TableReservationCitiesListCompanion, TableReservationGetAreasList, TableReservationGetRestaurantsAvailableSlots, TableReservationGetVenuesList, TableReservationRemoteErrorCompanion, TableReservationRemoteError, TableReservationVenueWorkingHourCompanion, TableReservationCancelReservationByUserRequestCompanion, TableReservationCancelReservationByUserRequest, TableReservationReserveRequestModelCompanion, TableReservationReserveRequestModel, TableReservationCuisine, TableReservationVenueFeature, TableReservationVenue, TableReservationVenueFeatureCompanion, TableReservationZoneType, TableReservationCoreViewModelCompanion, TableReservationCoreViewModel, TableReservationRestaurantAvailabilityEvents, TableReservationRestaurantAvailabilityViewState, TableReservationCoreCommonFlow<T>, TableReservationHomeReservationEvents, TableReservationHomeReservationEventsCancelReservation, TableReservationHomeReservationEventsFilterByArea, TableReservationHomeReservationEventsFilterVenues, TableReservationHomeReservationEventsGetAreas, TableReservationHomeReservationEventsGetCitiesList, TableReservationHomeReservationEventsGetCuisines, TableReservationHomeReservationEventsGetReservations, TableReservationHomeReservationEventsGetVenueList, TableReservationHomeReservationEventsGetZones, TableReservationHomeReservationEventsInit, TableReservationHomeReservationEventsSearchVenues, TableReservationHomeReservationViewState, TableReservationReservationDetailsEvents, TableReservationReservationDetailsEventsCancelReservation, TableReservationReservationDetailsEventsGetReservations, TableReservationReservationDetailsViewState, TableReservationReservationPaymentEvents, TableReservationReservationPaymentEventsGetSpecialOccasions, TableReservationReservationPaymentEventsReserve, TableReservationReservationPaymentViewState, TableReservationRestaurantAvailabilityEventsCheckAvailability, TableReservationRestaurantDetailsEvents, TableReservationRestaurantDetailsEventsGetById, TableReservationRestaurantDetailsViewState, TableReservationConfig, TableReservationKotlinUnit, TableReservationKotlinx_serialization_coreSerializersModule, TableReservationKotlinx_serialization_coreSerialKind, TableReservationKotlinNothing, TableReservationKotlinRuntimeException, TableReservationKotlinIllegalStateException;
+@class TableReservationKotlinThrowable, TableReservationKotlinArray<T>, TableReservationKotlinException, TableReservationMappingException, TableReservationArea, TableReservationApiAreasResponse, TableReservationCancelReservation, TableReservationApiCancelReservationByUser, TableReservationCity, TableReservationApiCitiesResponse, TableReservationReserve, TableReservationApiReservationReserveResponse, TableReservationReservation, TableReservationApiReservationResponse, TableReservationRestaurantsAvailableSlots, TableReservationApiRestaurantsAvailableSlotsResponse, TableReservationSpecialOccasion, TableReservationApiSpecialOccasionsResponse, TableReservationApiAreaCompanion, TableReservationApiArea, TableReservationApiAreasPagedCompanion, TableReservationApiAreasPaged, TableReservationApiAreasResponseCompanion, TableReservationApiCancelReservationByUserCompanion, TableReservationCitiesList, TableReservationApiCitiesResponseCompanion, TableReservationApiCuisineCompanion, TableReservationApiCuisine, TableReservationApiCuisinesResponseCompanion, TableReservationApiCuisinesResponse, TableReservationApiReservationCompanion, TableReservationApiReservation, TableReservationApiReservationReserveCompanion, TableReservationApiReservationReserve, TableReservationApiReservationReserveResponseCompanion, TableReservationApiReservationResponseCompanion, TableReservationApiSlot, TableReservationApiRestaurantSlotsCompanion, TableReservationApiRestaurantSlots, TableReservationApiRestaurantsAvailableSlotsResponseCompanion, TableReservationApiSlotCompanion, TableReservationApiSpecialOccasionsCompanion, TableReservationApiSpecialOccasions, TableReservationApiSpecialOccasionsResponseCompanion, TableReservationApiVenueFeature, TableReservationApiVenueParking, TableReservationApiVenuePaymentOption, TableReservationApiVenuePic, TableReservationApiVenueWorkingDays, TableReservationApiVenueCuisine, TableReservationApiVenueCompanion, TableReservationApiVenue, TableReservationApiVenueByIdResponseCompanion, TableReservationApiVenueByIdResponse, TableReservationApiVenueCuisineCompanion, TableReservationApiVenueFeatureCompanion, TableReservationApiVenuePagedCompanion, TableReservationApiVenuePaged, TableReservationApiVenueParkingCompanion, TableReservationApiVenuePaymentOptionCompanion, TableReservationApiVenuePicCompanion, TableReservationApiVenueResponseCompanion, TableReservationApiVenueResponse, TableReservationVenueWorkingHour, TableReservationApiVenueWorkingDaysCompanion, TableReservationApiZoneTypeCompanion, TableReservationApiZoneType, TableReservationApiZoneTypeResponseCompanion, TableReservationApiZoneTypeResponse, TableReservationCitiesListCompanion, TableReservationGetAreasList, TableReservationGetRestaurantsAvailableSlots, TableReservationGetVenuesList, TableReservationRemoteErrorCompanion, TableReservationRemoteError, TableReservationVenueWorkingHourCompanion, TableReservationCancelReservationByUserRequestCompanion, TableReservationCancelReservationByUserRequest, TableReservationReserveRequestModelCompanion, TableReservationReserveRequestModel, TableReservationCuisine, TableReservationVenueFeature, TableReservationVenue, TableReservationVenueFeatureCompanion, TableReservationZoneType, TableReservationCoreViewModelCompanion, TableReservationCoreViewModel, TableReservationRestaurantAvailabilityEvents, TableReservationRestaurantAvailabilityViewState, TableReservationCoreCommonFlow<T>, TableReservationHomeReservationEvents, TableReservationHomeReservationEventsCancelReservation, TableReservationHomeReservationEventsGetAreas, TableReservationHomeReservationEventsGetCitiesList, TableReservationHomeReservationEventsGetCuisines, TableReservationHomeReservationEventsGetReservations, TableReservationHomeReservationEventsGetVenueList, TableReservationHomeReservationEventsGetZones, TableReservationHomeReservationEventsInit, TableReservationHomeReservationEventsSearchVenues, TableReservationHomeReservationViewState, TableReservationReservationDetailsEvents, TableReservationReservationDetailsEventsCancelReservation, TableReservationReservationDetailsEventsGetReservations, TableReservationReservationDetailsViewState, TableReservationReservationPaymentEvents, TableReservationReservationPaymentEventsGetSpecialOccasions, TableReservationReservationPaymentEventsReserve, TableReservationReservationPaymentViewState, TableReservationRestaurantAvailabilityEventsCheckAvailability, TableReservationRestaurantDetailsEvents, TableReservationRestaurantDetailsEventsGetById, TableReservationRestaurantDetailsViewState, TableReservationConfig, TableReservationKotlinUnit, TableReservationKotlinx_serialization_coreSerializersModule, TableReservationKotlinx_serialization_coreSerialKind, TableReservationKotlinNothing, TableReservationKotlinRuntimeException, TableReservationKotlinIllegalStateException;
 
 @protocol TableReservationCoreApiMapper, TableReservationKotlinx_serialization_coreKSerializer, TableReservationKotlinx_coroutines_coreCoroutineScope, TableReservationCoreViewState, TableReservationKotlinIterator, TableReservationKotlinx_serialization_coreEncoder, TableReservationKotlinx_serialization_coreSerialDescriptor, TableReservationKotlinx_serialization_coreSerializationStrategy, TableReservationKotlinx_serialization_coreDecoder, TableReservationKotlinx_serialization_coreDeserializationStrategy, TableReservationKotlinCoroutineContext, TableReservationKotlinx_coroutines_coreFlowCollector, TableReservationKotlinx_coroutines_coreFlow, TableReservationKtor_ioCloseable, TableReservationKotlinx_serialization_coreCompositeEncoder, TableReservationKotlinAnnotation, TableReservationKotlinx_serialization_coreCompositeDecoder, TableReservationKotlinCoroutineContextElement, TableReservationKotlinCoroutineContextKey, TableReservationKotlinx_serialization_coreSerializersModuleCollector, TableReservationKotlinKClass, TableReservationKotlinKDeclarationContainer, TableReservationKotlinKAnnotatedElement, TableReservationKotlinKClassifier;
 
@@ -1604,42 +1604,6 @@ __attribute__((swift_name("HomeReservationEvents.CancelReservation")))
 @end;
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("HomeReservationEvents.FilterByArea")))
-@interface TableReservationHomeReservationEventsFilterByArea : TableReservationHomeReservationEvents
-- (instancetype)initWithLatitude:(double)latitude longitude:(double)longitude areaId:(int32_t)areaId __attribute__((swift_name("init(latitude:longitude:areaId:)"))) __attribute__((objc_designated_initializer));
-- (double)component1 __attribute__((swift_name("component1()")));
-- (double)component2 __attribute__((swift_name("component2()")));
-- (int32_t)component3 __attribute__((swift_name("component3()")));
-- (TableReservationHomeReservationEventsFilterByArea *)doCopyLatitude:(double)latitude longitude:(double)longitude areaId:(int32_t)areaId __attribute__((swift_name("doCopy(latitude:longitude:areaId:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) int32_t areaId __attribute__((swift_name("areaId")));
-@property (readonly) double latitude __attribute__((swift_name("latitude")));
-@property (readonly) double longitude __attribute__((swift_name("longitude")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("HomeReservationEvents.FilterVenues")))
-@interface TableReservationHomeReservationEventsFilterVenues : TableReservationHomeReservationEvents
-- (instancetype)initWithLatitude:(double)latitude longitude:(double)longitude zones:(NSArray<TableReservationInt *> *)zones cuisines:(NSArray<TableReservationInt *> *)cuisines cities:(NSArray<TableReservationInt *> *)cities __attribute__((swift_name("init(latitude:longitude:zones:cuisines:cities:)"))) __attribute__((objc_designated_initializer));
-- (double)component1 __attribute__((swift_name("component1()")));
-- (double)component2 __attribute__((swift_name("component2()")));
-- (NSArray<TableReservationInt *> *)component3 __attribute__((swift_name("component3()")));
-- (NSArray<TableReservationInt *> *)component4 __attribute__((swift_name("component4()")));
-- (NSArray<TableReservationInt *> *)component5 __attribute__((swift_name("component5()")));
-- (TableReservationHomeReservationEventsFilterVenues *)doCopyLatitude:(double)latitude longitude:(double)longitude zones:(NSArray<TableReservationInt *> *)zones cuisines:(NSArray<TableReservationInt *> *)cuisines cities:(NSArray<TableReservationInt *> *)cities __attribute__((swift_name("doCopy(latitude:longitude:zones:cuisines:cities:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) NSArray<TableReservationInt *> *cities __attribute__((swift_name("cities")));
-@property (readonly) NSArray<TableReservationInt *> *cuisines __attribute__((swift_name("cuisines")));
-@property (readonly) double latitude __attribute__((swift_name("latitude")));
-@property (readonly) double longitude __attribute__((swift_name("longitude")));
-@property (readonly) NSArray<TableReservationInt *> *zones __attribute__((swift_name("zones")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("HomeReservationEvents.GetAreas")))
 @interface TableReservationHomeReservationEventsGetAreas : TableReservationHomeReservationEvents
 - (instancetype)initWithLatitude:(double)latitude longitude:(double)longitude cityId:(TableReservationInt * _Nullable)cityId __attribute__((swift_name("init(latitude:longitude:cityId:)"))) __attribute__((objc_designated_initializer));
@@ -1685,15 +1649,13 @@ __attribute__((swift_name("HomeReservationEvents.GetReservations")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("HomeReservationEvents.GetVenueList")))
 @interface TableReservationHomeReservationEventsGetVenueList : TableReservationHomeReservationEvents
-- (instancetype)initWithLatitude:(double)latitude longitude:(double)longitude __attribute__((swift_name("init(latitude:longitude:)"))) __attribute__((objc_designated_initializer));
-- (double)component1 __attribute__((swift_name("component1()")));
-- (double)component2 __attribute__((swift_name("component2()")));
-- (TableReservationHomeReservationEventsGetVenueList *)doCopyLatitude:(double)latitude longitude:(double)longitude __attribute__((swift_name("doCopy(latitude:longitude:)")));
+- (instancetype)initWithPayload:(TableReservationGetVenuesList *)payload __attribute__((swift_name("init(payload:)"))) __attribute__((objc_designated_initializer));
+- (TableReservationGetVenuesList *)component1 __attribute__((swift_name("component1()")));
+- (TableReservationHomeReservationEventsGetVenueList *)doCopyPayload:(TableReservationGetVenuesList *)payload __attribute__((swift_name("doCopy(payload:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) double latitude __attribute__((swift_name("latitude")));
-@property (readonly) double longitude __attribute__((swift_name("longitude")));
+@property (readonly) TableReservationGetVenuesList *payload __attribute__((swift_name("payload")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
@@ -1722,17 +1684,13 @@ __attribute__((swift_name("HomeReservationEvents.Init")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("HomeReservationEvents.SearchVenues")))
 @interface TableReservationHomeReservationEventsSearchVenues : TableReservationHomeReservationEvents
-- (instancetype)initWithLatitude:(double)latitude longitude:(double)longitude keyword:(NSString *)keyword __attribute__((swift_name("init(latitude:longitude:keyword:)"))) __attribute__((objc_designated_initializer));
-- (double)component1 __attribute__((swift_name("component1()")));
-- (double)component2 __attribute__((swift_name("component2()")));
-- (NSString *)component3 __attribute__((swift_name("component3()")));
-- (TableReservationHomeReservationEventsSearchVenues *)doCopyLatitude:(double)latitude longitude:(double)longitude keyword:(NSString *)keyword __attribute__((swift_name("doCopy(latitude:longitude:keyword:)")));
+- (instancetype)initWithPayload:(TableReservationGetVenuesList *)payload __attribute__((swift_name("init(payload:)"))) __attribute__((objc_designated_initializer));
+- (TableReservationGetVenuesList *)component1 __attribute__((swift_name("component1()")));
+- (TableReservationHomeReservationEventsSearchVenues *)doCopyPayload:(TableReservationGetVenuesList *)payload __attribute__((swift_name("doCopy(payload:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) NSString *keyword __attribute__((swift_name("keyword")));
-@property (readonly) double latitude __attribute__((swift_name("latitude")));
-@property (readonly) double longitude __attribute__((swift_name("longitude")));
+@property (readonly) TableReservationGetVenuesList *payload __attribute__((swift_name("payload")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
