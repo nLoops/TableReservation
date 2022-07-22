@@ -2035,6 +2035,17 @@ __attribute__((swift_name("InMemoryCache")))
 - (NSString *)userMessage __attribute__((swift_name("userMessage()")));
 @end;
 
+@interface TableReservationReservation (Extensions)
+- (BOOL)isActive_ __attribute__((swift_name("isActive()")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ReservationKt")))
+@interface TableReservationReservationKt : TableReservationBase
++ (NSArray<TableReservationReservation *> *)filterActive:(NSArray<TableReservationReservation *> *)receiver __attribute__((swift_name("filterActive(_:)")));
++ (NSArray<TableReservationReservation *> *)filterNotActive:(NSArray<TableReservationReservation *> *)receiver __attribute__((swift_name("filterNotActive(_:)")));
+@end;
+
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("KotlinArray")))
 @interface TableReservationKotlinArray<T> : TableReservationBase
