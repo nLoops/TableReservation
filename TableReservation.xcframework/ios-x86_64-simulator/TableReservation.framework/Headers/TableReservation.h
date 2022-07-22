@@ -1427,11 +1427,12 @@ __attribute__((swift_name("Reservation")))
 - (TableReservationReservation *)doCopyUuid:(NSString *)uuid totalAmount:(double)totalAmount remarks:(NSString *)remarks referenceNo:(NSString *)referenceNo status:(NSString *)status tableType:(NSString *)tableType zone:(NSString *)zone venue:(NSString *)venue venueId:(NSString *)venueId mapUrl:(NSString *)mapUrl menuUrl:(NSString *)menuUrl personCount:(int32_t)personCount venueLogoUrl:(NSString *)venueLogoUrl fullDate:(NSString *)fullDate shortDate:(NSString *)shortDate time:(NSString *)time isActive:(BOOL)isActive guidelines:(NSString *)guidelines startAt:(NSString *)startAt endAt:(NSString *)endAt reservationStatus:(TableReservationReservationStatus *)reservationStatus __attribute__((swift_name("doCopy(uuid:totalAmount:remarks:referenceNo:status:tableType:zone:venue:venueId:mapUrl:menuUrl:personCount:venueLogoUrl:fullDate:shortDate:time:isActive:guidelines:startAt:endAt:reservationStatus:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (BOOL)isActive __attribute__((swift_name("isActive()")));
 - (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) NSString *endAt __attribute__((swift_name("endAt")));
 @property (readonly) NSString *fullDate __attribute__((swift_name("fullDate")));
 @property (readonly) NSString *guidelines __attribute__((swift_name("guidelines")));
-@property (readonly) BOOL isActive __attribute__((swift_name("isActive")));
+@property (readonly, getter=isActive_) BOOL isActive __attribute__((swift_name("isActive")));
 @property (readonly) NSString *mapUrl __attribute__((swift_name("mapUrl")));
 @property (readonly) NSString *menuUrl __attribute__((swift_name("menuUrl")));
 @property (readonly) int32_t personCount __attribute__((swift_name("personCount")));
@@ -2033,10 +2034,6 @@ __attribute__((swift_name("InMemoryCache")))
 
 @interface TableReservationKotlinThrowable (Extensions)
 - (NSString *)userMessage __attribute__((swift_name("userMessage()")));
-@end;
-
-@interface TableReservationReservation (Extensions)
-- (BOOL)isActive_ __attribute__((swift_name("isActive()")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
