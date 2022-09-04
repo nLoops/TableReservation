@@ -1888,10 +1888,11 @@ __attribute__((swift_name("HomeReservationViewModel")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("HomeReservationViewState")))
 @interface TableReservationHomeReservationViewState : TableReservationBase <TableReservationCoreViewState>
-- (instancetype)initWithRestaurants:(NSArray<TableReservationVenue *> *)restaurants reservations:(NSArray<TableReservationReservation *> *)reservations areas:(NSArray<TableReservationArea *> *)areas venuesError:(NSString * _Nullable)venuesError reservationError:(NSString * _Nullable)reservationError isAreaEmpty:(BOOL)isAreaEmpty isEmptyReservations:(BOOL)isEmptyReservations isReservationCancelled:(BOOL)isReservationCancelled error:(NSString * _Nullable)error isEmpty:(BOOL)isEmpty isLoading:(BOOL)isLoading __attribute__((swift_name("init(restaurants:reservations:areas:venuesError:reservationError:isAreaEmpty:isEmptyReservations:isReservationCancelled:error:isEmpty:isLoading:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithRestaurants:(NSArray<TableReservationVenue *> *)restaurants reservations:(NSArray<TableReservationReservation *> *)reservations areas:(NSArray<TableReservationArea *> *)areas venuesError:(NSString * _Nullable)venuesError reservationError:(NSString * _Nullable)reservationError isAreaEmpty:(BOOL)isAreaEmpty isEmptyReservations:(BOOL)isEmptyReservations isReservationCancelled:(BOOL)isReservationCancelled cancellationMessage:(NSString * _Nullable)cancellationMessage error:(NSString * _Nullable)error isEmpty:(BOOL)isEmpty isLoading:(BOOL)isLoading __attribute__((swift_name("init(restaurants:reservations:areas:venuesError:reservationError:isAreaEmpty:isEmptyReservations:isReservationCancelled:cancellationMessage:error:isEmpty:isLoading:)"))) __attribute__((objc_designated_initializer));
 - (NSArray<TableReservationVenue *> *)component1 __attribute__((swift_name("component1()")));
-- (BOOL)component10 __attribute__((swift_name("component10()")));
+- (NSString * _Nullable)component10 __attribute__((swift_name("component10()")));
 - (BOOL)component11 __attribute__((swift_name("component11()")));
+- (BOOL)component12 __attribute__((swift_name("component12()")));
 - (NSArray<TableReservationReservation *> *)component2 __attribute__((swift_name("component2()")));
 - (NSArray<TableReservationArea *> *)component3 __attribute__((swift_name("component3()")));
 - (NSString * _Nullable)component4 __attribute__((swift_name("component4()")));
@@ -1900,11 +1901,12 @@ __attribute__((swift_name("HomeReservationViewState")))
 - (BOOL)component7 __attribute__((swift_name("component7()")));
 - (BOOL)component8 __attribute__((swift_name("component8()")));
 - (NSString * _Nullable)component9 __attribute__((swift_name("component9()")));
-- (TableReservationHomeReservationViewState *)doCopyRestaurants:(NSArray<TableReservationVenue *> *)restaurants reservations:(NSArray<TableReservationReservation *> *)reservations areas:(NSArray<TableReservationArea *> *)areas venuesError:(NSString * _Nullable)venuesError reservationError:(NSString * _Nullable)reservationError isAreaEmpty:(BOOL)isAreaEmpty isEmptyReservations:(BOOL)isEmptyReservations isReservationCancelled:(BOOL)isReservationCancelled error:(NSString * _Nullable)error isEmpty:(BOOL)isEmpty isLoading:(BOOL)isLoading __attribute__((swift_name("doCopy(restaurants:reservations:areas:venuesError:reservationError:isAreaEmpty:isEmptyReservations:isReservationCancelled:error:isEmpty:isLoading:)")));
+- (TableReservationHomeReservationViewState *)doCopyRestaurants:(NSArray<TableReservationVenue *> *)restaurants reservations:(NSArray<TableReservationReservation *> *)reservations areas:(NSArray<TableReservationArea *> *)areas venuesError:(NSString * _Nullable)venuesError reservationError:(NSString * _Nullable)reservationError isAreaEmpty:(BOOL)isAreaEmpty isEmptyReservations:(BOOL)isEmptyReservations isReservationCancelled:(BOOL)isReservationCancelled cancellationMessage:(NSString * _Nullable)cancellationMessage error:(NSString * _Nullable)error isEmpty:(BOOL)isEmpty isLoading:(BOOL)isLoading __attribute__((swift_name("doCopy(restaurants:reservations:areas:venuesError:reservationError:isAreaEmpty:isEmptyReservations:isReservationCancelled:cancellationMessage:error:isEmpty:isLoading:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) NSArray<TableReservationArea *> *areas __attribute__((swift_name("areas")));
+@property (readonly) NSString * _Nullable cancellationMessage __attribute__((swift_name("cancellationMessage")));
 @property (readonly) NSString * _Nullable error __attribute__((swift_name("error")));
 @property (readonly) BOOL isAreaEmpty __attribute__((swift_name("isAreaEmpty")));
 @property (readonly) BOOL isEmpty __attribute__((swift_name("isEmpty")));
