@@ -1894,6 +1894,14 @@ __attribute__((swift_name("HomeReservationEvents.SearchVenues")))
 @end;
 
 __attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("HomeReservationEvents.Start")))
+@interface TableReservationHomeReservationEventsStart : TableReservationHomeReservationEvents
+- (instancetype)initWithLatitude:(double)latitude longitude:(double)longitude __attribute__((swift_name("init(latitude:longitude:)"))) __attribute__((objc_designated_initializer));
+@property (readonly) double latitude __attribute__((swift_name("latitude")));
+@property (readonly) double longitude __attribute__((swift_name("longitude")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("HomeReservationViewModel")))
 @interface TableReservationHomeReservationViewModel : TableReservationCoreViewModel
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
