@@ -2131,6 +2131,7 @@ __attribute__((swift_name("Config")))
 @property (class, readonly, getter=shared) TableReservationConfig *shared __attribute__((swift_name("shared")));
 @property BOOL enableHttpLogs __attribute__((swift_name("enableHttpLogs")));
 @property BOOL isArabic __attribute__((swift_name("isArabic")));
+@property BOOL isDebug __attribute__((swift_name("isDebug")));
 @property NSString * _Nullable jahezToken __attribute__((swift_name("jahezToken")));
 @property NSString * _Nullable jwtToken __attribute__((swift_name("jwtToken")));
 @end;
