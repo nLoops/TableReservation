@@ -1464,6 +1464,7 @@ __attribute__((swift_name("Reservation")))
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (BOOL)isReservationActive __attribute__((swift_name("isReservationActive()")));
+- (BOOL)shouldShowCancelButton __attribute__((swift_name("shouldShowCancelButton()")));
 - (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) NSString *endAt __attribute__((swift_name("endAt")));
 @property (readonly) NSString *fullDate __attribute__((swift_name("fullDate")));
