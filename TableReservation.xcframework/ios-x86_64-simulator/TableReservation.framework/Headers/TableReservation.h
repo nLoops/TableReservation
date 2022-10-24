@@ -6,7 +6,7 @@
 #import <Foundation/NSString.h>
 #import <Foundation/NSValue.h>
 
-@class TableReservationKotlinThrowable, TableReservationKotlinArray<T>, TableReservationKotlinException, TableReservationMappingException, TableReservationArea, TableReservationApiAreasResponse, TableReservationCancelReservation, TableReservationApiCancelReservationByUser, TableReservationCity, TableReservationApiCitiesResponse, TableReservationReserve, TableReservationApiReservationReserveResponse, TableReservationReservation, TableReservationApiReservationResponse, TableReservationRestaurantsAvailableSlots, TableReservationApiRestaurantsAvailableSlotsResponse, TableReservationSpecialOccasion, TableReservationApiSpecialOccasionsResponse, TableReservationAPIAuthResponseCompanion, TableReservationAPIAuthResponse, TableReservationApiAreaCompanion, TableReservationApiArea, TableReservationApiAreasPagedCompanion, TableReservationApiAreasPaged, TableReservationApiAreasResponseCompanion, TableReservationApiCancelReservationByUserCompanion, TableReservationCitiesList, TableReservationApiCitiesResponseCompanion, TableReservationApiCuisineCompanion, TableReservationApiCuisine, TableReservationApiCuisinesResponseCompanion, TableReservationApiCuisinesResponse, TableReservationApiReservationCompanion, TableReservationApiReservation, TableReservationApiReservationReserveCompanion, TableReservationApiReservationReserve, TableReservationApiReservationReserveResponseCompanion, TableReservationApiReservationResponseCompanion, TableReservationApiSlot, TableReservationApiRestaurantSlotsCompanion, TableReservationApiRestaurantSlots, TableReservationApiRestaurantsAvailableSlotsResponseCompanion, TableReservationApiSlotCompanion, TableReservationApiSpecialOccasionsCompanion, TableReservationApiSpecialOccasions, TableReservationApiSpecialOccasionsResponseCompanion, TableReservationApiVatResponseCompanion, TableReservationApiVatResponse, TableReservationApiVenueFeature, TableReservationApiVenueParking, TableReservationApiVenuePaymentOption, TableReservationApiVenuePic, TableReservationApiVenueWorkingDays, TableReservationApiVenueCuisine, TableReservationApiVenueCompanion, TableReservationApiVenue, TableReservationApiVenueByIdResponseCompanion, TableReservationApiVenueByIdResponse, TableReservationApiVenueCuisineCompanion, TableReservationApiVenueFeatureCompanion, TableReservationApiVenuePagedCompanion, TableReservationApiVenuePaged, TableReservationApiVenueParkingCompanion, TableReservationApiVenuePaymentOptionCompanion, TableReservationApiVenuePicCompanion, TableReservationApiVenueResponseCompanion, TableReservationApiVenueResponse, TableReservationVenueWorkingHour, TableReservationApiVenueWorkingDaysCompanion, TableReservationApiZoneTypeCompanion, TableReservationApiZoneType, TableReservationApiZoneTypeResponseCompanion, TableReservationApiZoneTypeResponse, TableReservationCitiesListCompanion, TableReservationGetAreasList, TableReservationGetRestaurantsAvailableSlots, TableReservationGetVenuesList, TableReservationRemoteErrorCompanion, TableReservationRemoteError, TableReservationVenueWorkingHourCompanion, TableReservationCancelReservationByUserRequestCompanion, TableReservationCancelReservationByUserRequest, TableReservationReserveRequestModelCompanion, TableReservationReserveRequestModel, TableReservationCuisine, TableReservationReservationStatus, TableReservationReservationCompanion, TableReservationKotlinEnumCompanion, TableReservationKotlinEnum<E>, TableReservationVat, TableReservationVenueFeature, TableReservationVenueCompanion, TableReservationVenue, TableReservationVenueFeatureCompanion, TableReservationZoneType, TableReservationCoreViewModelCompanion, TableReservationCoreViewModel, TableReservationFilterEvents, TableReservationFilterViewState, TableReservationCoreCommonFlow<T>, TableReservationRestaurantAvailabilityEvents, TableReservationRestaurantAvailabilityViewState, TableReservationFilterEventsLoadLookups, TableReservationHomeReservationEvents, TableReservationHomeReservationEventsCancelReservation, TableReservationHomeReservationEventsDefaultRestaurants, TableReservationHomeReservationEventsFilterByAdvanced, TableReservationHomeReservationEventsFilterByArea, TableReservationHomeReservationEventsFilterByKeyword, TableReservationHomeReservationEventsGetAreas, TableReservationHomeReservationEventsGetReservations, TableReservationHomeReservationEventsMarkCancelMessageHandled, TableReservationHomeReservationEventsSearchVenues, TableReservationHomeReservationViewState, TableReservationReservationPaymentEvents, TableReservationReservationPaymentEventsErrorHandled, TableReservationReservationPaymentEventsGetSpecialOccasions, TableReservationReservationPaymentEventsReserve, TableReservationReservationPaymentViewState, TableReservationRestaurantAvailabilityEventsCheckAvailability, TableReservationRestaurantAvailabilityEventsUpdateGuestsCount, TableReservationRestaurantAvailabilityEventsUpdateSelectedDate, TableReservationRestaurantAvailabilityEventsUpdateVenueId, TableReservationRestaurantDetailsEvents, TableReservationRestaurantDetailsEventsGetById, TableReservationRestaurantDetailsViewState, TableReservationConfig, TableReservationKotlinUnit, TableReservationKotlinRuntimeException, TableReservationKotlinIllegalStateException, TableReservationKotlinx_serialization_coreSerializersModule, TableReservationKotlinx_serialization_coreSerialKind, TableReservationKotlinNothing;
+@class TableReservationKotlinThrowable, TableReservationKotlinArray<T>, TableReservationKotlinException, TableReservationMappingException, TableReservationArea, TableReservationApiAreasResponse, TableReservationCancelReservation, TableReservationApiCancelReservationByUser, TableReservationCity, TableReservationApiCitiesResponse, TableReservationReserve, TableReservationApiReservationReserveResponse, TableReservationReservation, TableReservationApiReservationResponse, TableReservationRestaurantsAvailableSlots, TableReservationApiRestaurantsAvailableSlotsResponse, TableReservationSpecialOccasion, TableReservationApiSpecialOccasionsResponse, TableReservationAPIAuthResponseCompanion, TableReservationApiAreaCompanion, TableReservationApiArea, TableReservationApiAreasPagedCompanion, TableReservationApiAreasPaged, TableReservationApiAreasResponseCompanion, TableReservationApiCancelReservationByUserCompanion, TableReservationCitiesList, TableReservationApiCitiesResponseCompanion, TableReservationApiCuisineCompanion, TableReservationApiCuisine, TableReservationApiCuisinesResponseCompanion, TableReservationApiReservationCompanion, TableReservationApiReservationReserveCompanion, TableReservationApiReservationReserve, TableReservationApiReservationReserveResponseCompanion, TableReservationApiReservation, TableReservationApiReservationResponseCompanion, TableReservationApiSlot, TableReservationApiRestaurantSlotsCompanion, TableReservationApiRestaurantSlots, TableReservationApiRestaurantsAvailableSlotsResponseCompanion, TableReservationApiSlotCompanion, TableReservationApiSpecialOccasionsCompanion, TableReservationApiSpecialOccasions, TableReservationApiSpecialOccasionsResponseCompanion, TableReservationApiVatResponseCompanion, TableReservationApiVenueFeature, TableReservationApiVenueParking, TableReservationApiVenuePaymentOption, TableReservationApiVenuePic, TableReservationApiVenueWorkingDays, TableReservationApiVenueCuisine, TableReservationApiVenueCompanion, TableReservationApiVenue, TableReservationApiVenueByIdResponseCompanion, TableReservationApiVenueCuisineCompanion, TableReservationApiVenueFeatureCompanion, TableReservationApiVenuePagedCompanion, TableReservationApiVenueParkingCompanion, TableReservationApiVenuePaymentOptionCompanion, TableReservationApiVenuePicCompanion, TableReservationApiVenuePaged, TableReservationApiVenueResponseCompanion, TableReservationVenueWorkingHour, TableReservationApiVenueWorkingDaysCompanion, TableReservationApiZoneTypeCompanion, TableReservationApiZoneType, TableReservationApiZoneTypeResponseCompanion, TableReservationCitiesListCompanion, TableReservationGetVenuesList, TableReservationRemoteErrorCompanion, TableReservationVenueWorkingHourCompanion, TableReservationCancelReservationByUserRequestCompanion, TableReservationReserveRequestModelCompanion, TableReservationReservationStatus, TableReservationReservationCompanion, TableReservationKotlinEnumCompanion, TableReservationKotlinEnum<E>, TableReservationReservationType, TableReservationVenueFeature, TableReservationVenueCompanion, TableReservationVenueFeatureCompanion, TableReservationCoreViewModelCompanion, TableReservationCoreViewModel, TableReservationFilterEvents, TableReservationFilterViewState, TableReservationCoreCommonFlow<T>, TableReservationRestaurantAvailabilityEvents, TableReservationRestaurantAvailabilityViewState, TableReservationFilterEventsLoadLookups, TableReservationZoneType, TableReservationCuisine, TableReservationHomeReservationEvents, TableReservationHomeReservationEventsCancelReservation, TableReservationHomeReservationEventsDefaultRestaurants, TableReservationHomeReservationEventsFilterByAdvanced, TableReservationHomeReservationEventsFilterByArea, TableReservationHomeReservationEventsFilterByKeyword, TableReservationHomeReservationEventsGetAreas, TableReservationHomeReservationEventsGetReservations, TableReservationHomeReservationEventsMarkCancelMessageHandled, TableReservationHomeReservationEventsSearchVenues, TableReservationHomeReservationViewState, TableReservationVenue, TableReservationReservationPaymentEvents, TableReservationReservationPaymentEventsErrorHandled, TableReservationReservationPaymentEventsGetSpecialOccasions, TableReservationReserveRequestModel, TableReservationReservationPaymentEventsReserve, TableReservationReservationPaymentViewState, TableReservationGetRestaurantsAvailableSlots, TableReservationRestaurantAvailabilityEventsCheckAvailability, TableReservationRestaurantAvailabilityEventsUpdateGuestsCount, TableReservationRestaurantAvailabilityEventsUpdateSelectedDate, TableReservationRestaurantAvailabilityEventsUpdateVenueId, TableReservationRestaurantDetailsEvents, TableReservationRestaurantDetailsEventsGetById, TableReservationRestaurantDetailsViewState, TableReservationConfig, TableReservationKotlinUnit, TableReservationKotlinRuntimeException, TableReservationKotlinIllegalStateException, TableReservationKotlinx_serialization_coreSerializersModule, TableReservationKotlinx_serialization_coreSerialKind, TableReservationKotlinNothing;
 
 @protocol TableReservationCoreApiMapper, TableReservationKotlinx_serialization_coreKSerializer, TableReservationKotlinComparable, TableReservationKotlinx_coroutines_coreCoroutineScope, TableReservationCoreViewState, TableReservationKotlinSuspendFunction0, TableReservationKotlinIterator, TableReservationKotlinx_serialization_coreEncoder, TableReservationKotlinx_serialization_coreSerialDescriptor, TableReservationKotlinx_serialization_coreSerializationStrategy, TableReservationKotlinx_serialization_coreDecoder, TableReservationKotlinx_serialization_coreDeserializationStrategy, TableReservationKotlinCoroutineContext, TableReservationKotlinx_coroutines_coreFlowCollector, TableReservationKotlinx_coroutines_coreFlow, TableReservationKtor_ioCloseable, TableReservationKotlinFunction, TableReservationKotlinx_serialization_coreCompositeEncoder, TableReservationKotlinAnnotation, TableReservationKotlinx_serialization_coreCompositeDecoder, TableReservationKotlinCoroutineContextElement, TableReservationKotlinCoroutineContextKey, TableReservationKotlinx_serialization_coreSerializersModuleCollector, TableReservationKotlinKClass, TableReservationKotlinKDeclarationContainer, TableReservationKotlinKAnnotatedElement, TableReservationKotlinKClassifier;
 
@@ -252,14 +252,6 @@ __attribute__((swift_name("APIAuthResponse")))
 @interface TableReservationAPIAuthResponse : TableReservationBase
 - (instancetype)initWithAccessToken:(NSString * _Nullable)accessToken expiresIn:(TableReservationInt * _Nullable)expiresIn refreshToken:(NSString * _Nullable)refreshToken tokenType:(NSString * _Nullable)tokenType __attribute__((swift_name("init(accessToken:expiresIn:refreshToken:tokenType:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) TableReservationAPIAuthResponseCompanion *companion __attribute__((swift_name("companion")));
-- (NSString * _Nullable)component1 __attribute__((swift_name("component1()")));
-- (TableReservationInt * _Nullable)component2 __attribute__((swift_name("component2()")));
-- (NSString * _Nullable)component3 __attribute__((swift_name("component3()")));
-- (NSString * _Nullable)component4 __attribute__((swift_name("component4()")));
-- (TableReservationAPIAuthResponse *)doCopyAccessToken:(NSString * _Nullable)accessToken expiresIn:(TableReservationInt * _Nullable)expiresIn refreshToken:(NSString * _Nullable)refreshToken tokenType:(NSString * _Nullable)tokenType __attribute__((swift_name("doCopy(accessToken:expiresIn:refreshToken:tokenType:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) NSString * _Nullable accessToken __attribute__((swift_name("accessToken")));
 @property (readonly) TableReservationInt * _Nullable expiresIn __attribute__((swift_name("expiresIn")));
 @property (readonly) NSString * _Nullable refreshToken __attribute__((swift_name("refreshToken")));
@@ -281,19 +273,6 @@ __attribute__((swift_name("ApiArea")))
 @interface TableReservationApiArea : TableReservationBase
 - (instancetype)initWithId:(TableReservationInt * _Nullable)id nameAr:(NSString * _Nullable)nameAr nameEn:(NSString * _Nullable)nameEn latitude:(TableReservationDouble * _Nullable)latitude longitude:(TableReservationDouble * _Nullable)longitude isActive:(TableReservationBoolean * _Nullable)isActive availableFrom:(NSString * _Nullable)availableFrom availableTo:(NSString * _Nullable)availableTo picUrl:(NSString * _Nullable)picUrl __attribute__((swift_name("init(id:nameAr:nameEn:latitude:longitude:isActive:availableFrom:availableTo:picUrl:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) TableReservationApiAreaCompanion *companion __attribute__((swift_name("companion")));
-- (TableReservationInt * _Nullable)component1 __attribute__((swift_name("component1()")));
-- (NSString * _Nullable)component2 __attribute__((swift_name("component2()")));
-- (NSString * _Nullable)component3 __attribute__((swift_name("component3()")));
-- (TableReservationDouble * _Nullable)component4 __attribute__((swift_name("component4()")));
-- (TableReservationDouble * _Nullable)component5 __attribute__((swift_name("component5()")));
-- (TableReservationBoolean * _Nullable)component6 __attribute__((swift_name("component6()")));
-- (NSString * _Nullable)component7 __attribute__((swift_name("component7()")));
-- (NSString * _Nullable)component8 __attribute__((swift_name("component8()")));
-- (NSString * _Nullable)component9 __attribute__((swift_name("component9()")));
-- (TableReservationApiArea *)doCopyId:(TableReservationInt * _Nullable)id nameAr:(NSString * _Nullable)nameAr nameEn:(NSString * _Nullable)nameEn latitude:(TableReservationDouble * _Nullable)latitude longitude:(TableReservationDouble * _Nullable)longitude isActive:(TableReservationBoolean * _Nullable)isActive availableFrom:(NSString * _Nullable)availableFrom availableTo:(NSString * _Nullable)availableTo picUrl:(NSString * _Nullable)picUrl __attribute__((swift_name("doCopy(id:nameAr:nameEn:latitude:longitude:isActive:availableFrom:availableTo:picUrl:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) NSString * _Nullable availableFrom __attribute__((swift_name("availableFrom")));
 @property (readonly) NSString * _Nullable availableTo __attribute__((swift_name("availableTo")));
 @property (readonly) TableReservationInt * _Nullable id __attribute__((swift_name("id")));
@@ -320,15 +299,6 @@ __attribute__((swift_name("ApiAreasPaged")))
 @interface TableReservationApiAreasPaged : TableReservationBase
 - (instancetype)initWithCurrentPage:(TableReservationInt * _Nullable)currentPage pageSize:(TableReservationInt * _Nullable)pageSize totalRows:(TableReservationInt * _Nullable)totalRows pages:(TableReservationInt * _Nullable)pages result:(NSArray<TableReservationApiArea *> * _Nullable)result __attribute__((swift_name("init(currentPage:pageSize:totalRows:pages:result:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) TableReservationApiAreasPagedCompanion *companion __attribute__((swift_name("companion")));
-- (TableReservationInt * _Nullable)component1 __attribute__((swift_name("component1()")));
-- (TableReservationInt * _Nullable)component2 __attribute__((swift_name("component2()")));
-- (TableReservationInt * _Nullable)component3 __attribute__((swift_name("component3()")));
-- (TableReservationInt * _Nullable)component4 __attribute__((swift_name("component4()")));
-- (NSArray<TableReservationApiArea *> * _Nullable)component5 __attribute__((swift_name("component5()")));
-- (TableReservationApiAreasPaged *)doCopyCurrentPage:(TableReservationInt * _Nullable)currentPage pageSize:(TableReservationInt * _Nullable)pageSize totalRows:(TableReservationInt * _Nullable)totalRows pages:(TableReservationInt * _Nullable)pages result:(NSArray<TableReservationApiArea *> * _Nullable)result __attribute__((swift_name("doCopy(currentPage:pageSize:totalRows:pages:result:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) TableReservationInt * _Nullable currentPage __attribute__((swift_name("currentPage")));
 @property (readonly) TableReservationInt * _Nullable pageSize __attribute__((swift_name("pageSize")));
 @property (readonly) TableReservationInt * _Nullable pages __attribute__((swift_name("pages")));
@@ -351,13 +321,6 @@ __attribute__((swift_name("ApiAreasResponse")))
 @interface TableReservationApiAreasResponse : TableReservationBase
 - (instancetype)initWithOk:(TableReservationBoolean * _Nullable)ok message:(NSString * _Nullable)message data:(TableReservationApiAreasPaged * _Nullable)data __attribute__((swift_name("init(ok:message:data:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) TableReservationApiAreasResponseCompanion *companion __attribute__((swift_name("companion")));
-- (TableReservationBoolean * _Nullable)component1 __attribute__((swift_name("component1()")));
-- (NSString * _Nullable)component2 __attribute__((swift_name("component2()")));
-- (TableReservationApiAreasPaged * _Nullable)component3 __attribute__((swift_name("component3()")));
-- (TableReservationApiAreasResponse *)doCopyOk:(TableReservationBoolean * _Nullable)ok message:(NSString * _Nullable)message data:(TableReservationApiAreasPaged * _Nullable)data __attribute__((swift_name("doCopy(ok:message:data:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) TableReservationApiAreasPaged * _Nullable data __attribute__((swift_name("data")));
 @property (readonly) NSString * _Nullable message __attribute__((swift_name("message")));
 @property (readonly) TableReservationBoolean * _Nullable ok __attribute__((swift_name("ok")));
@@ -378,13 +341,6 @@ __attribute__((swift_name("ApiCancelReservationByUser")))
 @interface TableReservationApiCancelReservationByUser : TableReservationBase
 - (instancetype)initWithOk:(TableReservationBoolean * _Nullable)ok message:(NSString * _Nullable)message data:(NSString * _Nullable)data __attribute__((swift_name("init(ok:message:data:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) TableReservationApiCancelReservationByUserCompanion *companion __attribute__((swift_name("companion")));
-- (TableReservationBoolean * _Nullable)component1 __attribute__((swift_name("component1()")));
-- (NSString * _Nullable)component2 __attribute__((swift_name("component2()")));
-- (NSString * _Nullable)component3 __attribute__((swift_name("component3()")));
-- (TableReservationApiCancelReservationByUser *)doCopyOk:(TableReservationBoolean * _Nullable)ok message:(NSString * _Nullable)message data:(NSString * _Nullable)data __attribute__((swift_name("doCopy(ok:message:data:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) NSString * _Nullable data __attribute__((swift_name("data")));
 @property (readonly) NSString * _Nullable message __attribute__((swift_name("message")));
 @property (readonly) TableReservationBoolean * _Nullable ok __attribute__((swift_name("ok")));
@@ -405,11 +361,6 @@ __attribute__((swift_name("ApiCitiesResponse")))
 @interface TableReservationApiCitiesResponse : TableReservationBase
 - (instancetype)initWithCitieslist:(NSArray<TableReservationCitiesList *> * _Nullable)citieslist __attribute__((swift_name("init(citieslist:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) TableReservationApiCitiesResponseCompanion *companion __attribute__((swift_name("companion")));
-- (NSArray<TableReservationCitiesList *> * _Nullable)component1 __attribute__((swift_name("component1()")));
-- (TableReservationApiCitiesResponse *)doCopyCitieslist:(NSArray<TableReservationCitiesList *> * _Nullable)citieslist __attribute__((swift_name("doCopy(citieslist:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) NSArray<TableReservationCitiesList *> * _Nullable citieslist __attribute__((swift_name("citieslist")));
 @end;
 
@@ -428,13 +379,6 @@ __attribute__((swift_name("ApiCuisine")))
 @interface TableReservationApiCuisine : TableReservationBase
 - (instancetype)initWithId:(TableReservationInt * _Nullable)id nameEn:(NSString * _Nullable)nameEn nameAr:(NSString * _Nullable)nameAr __attribute__((swift_name("init(id:nameEn:nameAr:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) TableReservationApiCuisineCompanion *companion __attribute__((swift_name("companion")));
-- (TableReservationInt * _Nullable)component1 __attribute__((swift_name("component1()")));
-- (NSString * _Nullable)component2 __attribute__((swift_name("component2()")));
-- (NSString * _Nullable)component3 __attribute__((swift_name("component3()")));
-- (TableReservationApiCuisine *)doCopyId:(TableReservationInt * _Nullable)id nameEn:(NSString * _Nullable)nameEn nameAr:(NSString * _Nullable)nameAr __attribute__((swift_name("doCopy(id:nameEn:nameAr:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) TableReservationInt * _Nullable id __attribute__((swift_name("id")));
 @property (readonly) NSString * _Nullable nameAr __attribute__((swift_name("nameAr")));
 @property (readonly) NSString * _Nullable nameEn __attribute__((swift_name("nameEn")));
@@ -455,13 +399,6 @@ __attribute__((swift_name("ApiCuisinesResponse")))
 @interface TableReservationApiCuisinesResponse : TableReservationBase
 - (instancetype)initWithOk:(TableReservationBoolean * _Nullable)ok message:(NSString * _Nullable)message data:(NSArray<TableReservationApiCuisine *> * _Nullable)data __attribute__((swift_name("init(ok:message:data:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) TableReservationApiCuisinesResponseCompanion *companion __attribute__((swift_name("companion")));
-- (TableReservationBoolean * _Nullable)component1 __attribute__((swift_name("component1()")));
-- (NSString * _Nullable)component2 __attribute__((swift_name("component2()")));
-- (NSArray<TableReservationApiCuisine *> * _Nullable)component3 __attribute__((swift_name("component3()")));
-- (TableReservationApiCuisinesResponse *)doCopyOk:(TableReservationBoolean * _Nullable)ok message:(NSString * _Nullable)message data:(NSArray<TableReservationApiCuisine *> * _Nullable)data __attribute__((swift_name("doCopy(ok:message:data:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) NSArray<TableReservationApiCuisine *> * _Nullable data __attribute__((swift_name("data")));
 @property (readonly) NSString * _Nullable message __attribute__((swift_name("message")));
 @property (readonly) TableReservationBoolean * _Nullable ok __attribute__((swift_name("ok")));
@@ -482,34 +419,6 @@ __attribute__((swift_name("ApiReservation")))
 @interface TableReservationApiReservation : TableReservationBase
 - (instancetype)initWithId:(NSString * _Nullable)id startTime:(NSString * _Nullable)startTime endTime:(NSString * _Nullable)endTime totalAmount:(TableReservationDouble * _Nullable)totalAmount remarks:(NSString * _Nullable)remarks referenceNo:(NSString * _Nullable)referenceNo createdAt:(NSString * _Nullable)createdAt updatedAt:(NSString * _Nullable)updatedAt statusAr:(NSString * _Nullable)statusAr statusEn:(NSString * _Nullable)statusEn tableTypeAr:(NSString * _Nullable)tableTypeAr tableTypeEn:(NSString * _Nullable)tableTypeEn zoneEn:(NSString * _Nullable)zoneEn zoneAr:(NSString * _Nullable)zoneAr venueAr:(NSString * _Nullable)venueAr venueEn:(NSString * _Nullable)venueEn venueId:(NSString * _Nullable)venueId latitude:(TableReservationDouble * _Nullable)latitude longitude:(TableReservationDouble * _Nullable)longitude logoUrl:(NSString * _Nullable)logoUrl menuUrl:(NSString * _Nullable)menuUrl personCount:(TableReservationInt * _Nullable)personCount guidelines:(NSString * _Nullable)guidelines guidelinesAr:(NSString * _Nullable)guidelinesAr __attribute__((swift_name("init(id:startTime:endTime:totalAmount:remarks:referenceNo:createdAt:updatedAt:statusAr:statusEn:tableTypeAr:tableTypeEn:zoneEn:zoneAr:venueAr:venueEn:venueId:latitude:longitude:logoUrl:menuUrl:personCount:guidelines:guidelinesAr:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) TableReservationApiReservationCompanion *companion __attribute__((swift_name("companion")));
-- (NSString * _Nullable)component1 __attribute__((swift_name("component1()")));
-- (NSString * _Nullable)component10 __attribute__((swift_name("component10()")));
-- (NSString * _Nullable)component11 __attribute__((swift_name("component11()")));
-- (NSString * _Nullable)component12 __attribute__((swift_name("component12()")));
-- (NSString * _Nullable)component13 __attribute__((swift_name("component13()")));
-- (NSString * _Nullable)component14 __attribute__((swift_name("component14()")));
-- (NSString * _Nullable)component15 __attribute__((swift_name("component15()")));
-- (NSString * _Nullable)component16 __attribute__((swift_name("component16()")));
-- (NSString * _Nullable)component17 __attribute__((swift_name("component17()")));
-- (TableReservationDouble * _Nullable)component18 __attribute__((swift_name("component18()")));
-- (TableReservationDouble * _Nullable)component19 __attribute__((swift_name("component19()")));
-- (NSString * _Nullable)component2 __attribute__((swift_name("component2()")));
-- (NSString * _Nullable)component20 __attribute__((swift_name("component20()")));
-- (NSString * _Nullable)component21 __attribute__((swift_name("component21()")));
-- (TableReservationInt * _Nullable)component22 __attribute__((swift_name("component22()")));
-- (NSString * _Nullable)component23 __attribute__((swift_name("component23()")));
-- (NSString * _Nullable)component24 __attribute__((swift_name("component24()")));
-- (NSString * _Nullable)component3 __attribute__((swift_name("component3()")));
-- (TableReservationDouble * _Nullable)component4 __attribute__((swift_name("component4()")));
-- (NSString * _Nullable)component5 __attribute__((swift_name("component5()")));
-- (NSString * _Nullable)component6 __attribute__((swift_name("component6()")));
-- (NSString * _Nullable)component7 __attribute__((swift_name("component7()")));
-- (NSString * _Nullable)component8 __attribute__((swift_name("component8()")));
-- (NSString * _Nullable)component9 __attribute__((swift_name("component9()")));
-- (TableReservationApiReservation *)doCopyId:(NSString * _Nullable)id startTime:(NSString * _Nullable)startTime endTime:(NSString * _Nullable)endTime totalAmount:(TableReservationDouble * _Nullable)totalAmount remarks:(NSString * _Nullable)remarks referenceNo:(NSString * _Nullable)referenceNo createdAt:(NSString * _Nullable)createdAt updatedAt:(NSString * _Nullable)updatedAt statusAr:(NSString * _Nullable)statusAr statusEn:(NSString * _Nullable)statusEn tableTypeAr:(NSString * _Nullable)tableTypeAr tableTypeEn:(NSString * _Nullable)tableTypeEn zoneEn:(NSString * _Nullable)zoneEn zoneAr:(NSString * _Nullable)zoneAr venueAr:(NSString * _Nullable)venueAr venueEn:(NSString * _Nullable)venueEn venueId:(NSString * _Nullable)venueId latitude:(TableReservationDouble * _Nullable)latitude longitude:(TableReservationDouble * _Nullable)longitude logoUrl:(NSString * _Nullable)logoUrl menuUrl:(NSString * _Nullable)menuUrl personCount:(TableReservationInt * _Nullable)personCount guidelines:(NSString * _Nullable)guidelines guidelinesAr:(NSString * _Nullable)guidelinesAr __attribute__((swift_name("doCopy(id:startTime:endTime:totalAmount:remarks:referenceNo:createdAt:updatedAt:statusAr:statusEn:tableTypeAr:tableTypeEn:zoneEn:zoneAr:venueAr:venueEn:venueId:latitude:longitude:logoUrl:menuUrl:personCount:guidelines:guidelinesAr:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) NSString * _Nullable createdAt __attribute__((swift_name("createdAt")));
 @property (readonly) NSString * _Nullable endTime __attribute__((swift_name("endTime")));
 @property (readonly) NSString * _Nullable guidelines __attribute__((swift_name("guidelines")));
@@ -551,14 +460,6 @@ __attribute__((swift_name("ApiReservationReserve")))
 @interface TableReservationApiReservationReserve : TableReservationBase
 - (instancetype)initWithTotalAmount:(TableReservationDouble * _Nullable)totalAmount referenceNo:(NSString * _Nullable)referenceNo redirectURL:(NSString * _Nullable)redirectURL id:(NSString * _Nullable)id __attribute__((swift_name("init(totalAmount:referenceNo:redirectURL:id:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) TableReservationApiReservationReserveCompanion *companion __attribute__((swift_name("companion")));
-- (TableReservationDouble * _Nullable)component1 __attribute__((swift_name("component1()")));
-- (NSString * _Nullable)component2 __attribute__((swift_name("component2()")));
-- (NSString * _Nullable)component3 __attribute__((swift_name("component3()")));
-- (NSString * _Nullable)component4 __attribute__((swift_name("component4()")));
-- (TableReservationApiReservationReserve *)doCopyTotalAmount:(TableReservationDouble * _Nullable)totalAmount referenceNo:(NSString * _Nullable)referenceNo redirectURL:(NSString * _Nullable)redirectURL id:(NSString * _Nullable)id __attribute__((swift_name("doCopy(totalAmount:referenceNo:redirectURL:id:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) NSString * _Nullable id __attribute__((swift_name("id")));
 @property (readonly) NSString * _Nullable redirectURL __attribute__((swift_name("redirectURL")));
 @property (readonly) NSString * _Nullable referenceNo __attribute__((swift_name("referenceNo")));
@@ -580,13 +481,6 @@ __attribute__((swift_name("ApiReservationReserveResponse")))
 @interface TableReservationApiReservationReserveResponse : TableReservationBase
 - (instancetype)initWithOk:(TableReservationBoolean * _Nullable)ok message:(NSString * _Nullable)message data:(TableReservationApiReservationReserve * _Nullable)data __attribute__((swift_name("init(ok:message:data:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) TableReservationApiReservationReserveResponseCompanion *companion __attribute__((swift_name("companion")));
-- (TableReservationBoolean * _Nullable)component1 __attribute__((swift_name("component1()")));
-- (NSString * _Nullable)component2 __attribute__((swift_name("component2()")));
-- (TableReservationApiReservationReserve * _Nullable)component3 __attribute__((swift_name("component3()")));
-- (TableReservationApiReservationReserveResponse *)doCopyOk:(TableReservationBoolean * _Nullable)ok message:(NSString * _Nullable)message data:(TableReservationApiReservationReserve * _Nullable)data __attribute__((swift_name("doCopy(ok:message:data:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) TableReservationApiReservationReserve * _Nullable data __attribute__((swift_name("data")));
 @property (readonly) NSString * _Nullable message __attribute__((swift_name("message")));
 @property (readonly) TableReservationBoolean * _Nullable ok __attribute__((swift_name("ok")));
@@ -607,13 +501,6 @@ __attribute__((swift_name("ApiReservationResponse")))
 @interface TableReservationApiReservationResponse : TableReservationBase
 - (instancetype)initWithOk:(TableReservationBoolean * _Nullable)ok message:(NSString * _Nullable)message data:(NSArray<TableReservationApiReservation *> * _Nullable)data __attribute__((swift_name("init(ok:message:data:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) TableReservationApiReservationResponseCompanion *companion __attribute__((swift_name("companion")));
-- (TableReservationBoolean * _Nullable)component1 __attribute__((swift_name("component1()")));
-- (NSString * _Nullable)component2 __attribute__((swift_name("component2()")));
-- (NSArray<TableReservationApiReservation *> * _Nullable)component3 __attribute__((swift_name("component3()")));
-- (TableReservationApiReservationResponse *)doCopyOk:(TableReservationBoolean * _Nullable)ok message:(NSString * _Nullable)message data:(NSArray<TableReservationApiReservation *> * _Nullable)data __attribute__((swift_name("doCopy(ok:message:data:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) NSArray<TableReservationApiReservation *> * _Nullable data __attribute__((swift_name("data")));
 @property (readonly) NSString * _Nullable message __attribute__((swift_name("message")));
 @property (readonly) TableReservationBoolean * _Nullable ok __attribute__((swift_name("ok")));
@@ -634,17 +521,6 @@ __attribute__((swift_name("ApiRestaurantSlots")))
 @interface TableReservationApiRestaurantSlots : TableReservationBase
 - (instancetype)initWithVenueId:(TableReservationInt * _Nullable)venueId jahezId:(NSString * _Nullable)jahezId pricePerPerson:(TableReservationDouble * _Nullable)pricePerPerson venueZoneId:(TableReservationInt * _Nullable)venueZoneId nameAr:(NSString * _Nullable)nameAr nameEn:(NSString * _Nullable)nameEn slots:(NSArray<TableReservationApiSlot *> * _Nullable)slots __attribute__((swift_name("init(venueId:jahezId:pricePerPerson:venueZoneId:nameAr:nameEn:slots:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) TableReservationApiRestaurantSlotsCompanion *companion __attribute__((swift_name("companion")));
-- (TableReservationInt * _Nullable)component1 __attribute__((swift_name("component1()")));
-- (NSString * _Nullable)component2 __attribute__((swift_name("component2()")));
-- (TableReservationDouble * _Nullable)component3 __attribute__((swift_name("component3()")));
-- (TableReservationInt * _Nullable)component4 __attribute__((swift_name("component4()")));
-- (NSString * _Nullable)component5 __attribute__((swift_name("component5()")));
-- (NSString * _Nullable)component6 __attribute__((swift_name("component6()")));
-- (NSArray<TableReservationApiSlot *> * _Nullable)component7 __attribute__((swift_name("component7()")));
-- (TableReservationApiRestaurantSlots *)doCopyVenueId:(TableReservationInt * _Nullable)venueId jahezId:(NSString * _Nullable)jahezId pricePerPerson:(TableReservationDouble * _Nullable)pricePerPerson venueZoneId:(TableReservationInt * _Nullable)venueZoneId nameAr:(NSString * _Nullable)nameAr nameEn:(NSString * _Nullable)nameEn slots:(NSArray<TableReservationApiSlot *> * _Nullable)slots __attribute__((swift_name("doCopy(venueId:jahezId:pricePerPerson:venueZoneId:nameAr:nameEn:slots:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) NSString * _Nullable jahezId __attribute__((swift_name("jahezId")));
 @property (readonly) NSString * _Nullable nameAr __attribute__((swift_name("nameAr")));
 @property (readonly) NSString * _Nullable nameEn __attribute__((swift_name("nameEn")));
@@ -669,13 +545,6 @@ __attribute__((swift_name("ApiRestaurantsAvailableSlotsResponse")))
 @interface TableReservationApiRestaurantsAvailableSlotsResponse : TableReservationBase
 - (instancetype)initWithOk:(TableReservationBoolean * _Nullable)ok message:(NSString * _Nullable)message data:(NSArray<TableReservationApiRestaurantSlots *> * _Nullable)data __attribute__((swift_name("init(ok:message:data:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) TableReservationApiRestaurantsAvailableSlotsResponseCompanion *companion __attribute__((swift_name("companion")));
-- (TableReservationBoolean * _Nullable)component1 __attribute__((swift_name("component1()")));
-- (NSString * _Nullable)component2 __attribute__((swift_name("component2()")));
-- (NSArray<TableReservationApiRestaurantSlots *> * _Nullable)component3 __attribute__((swift_name("component3()")));
-- (TableReservationApiRestaurantsAvailableSlotsResponse *)doCopyOk:(TableReservationBoolean * _Nullable)ok message:(NSString * _Nullable)message data:(NSArray<TableReservationApiRestaurantSlots *> * _Nullable)data __attribute__((swift_name("doCopy(ok:message:data:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) NSArray<TableReservationApiRestaurantSlots *> * _Nullable data __attribute__((swift_name("data")));
 @property (readonly) NSString * _Nullable message __attribute__((swift_name("message")));
 @property (readonly) TableReservationBoolean * _Nullable ok __attribute__((swift_name("ok")));
@@ -696,12 +565,6 @@ __attribute__((swift_name("ApiSlot")))
 @interface TableReservationApiSlot : TableReservationBase
 - (instancetype)initWithIsAvailable:(TableReservationBoolean * _Nullable)isAvailable slot:(NSString * _Nullable)slot __attribute__((swift_name("init(isAvailable:slot:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) TableReservationApiSlotCompanion *companion __attribute__((swift_name("companion")));
-- (TableReservationBoolean * _Nullable)component1 __attribute__((swift_name("component1()")));
-- (NSString * _Nullable)component2 __attribute__((swift_name("component2()")));
-- (TableReservationApiSlot *)doCopyIsAvailable:(TableReservationBoolean * _Nullable)isAvailable slot:(NSString * _Nullable)slot __attribute__((swift_name("doCopy(isAvailable:slot:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) TableReservationBoolean * _Nullable isAvailable __attribute__((swift_name("isAvailable")));
 @property (readonly) NSString * _Nullable slot __attribute__((swift_name("slot")));
 @end;
@@ -721,13 +584,6 @@ __attribute__((swift_name("ApiSpecialOccasions")))
 @interface TableReservationApiSpecialOccasions : TableReservationBase
 - (instancetype)initWithId:(TableReservationInt * _Nullable)id nameEn:(NSString * _Nullable)nameEn nameAr:(NSString * _Nullable)nameAr __attribute__((swift_name("init(id:nameEn:nameAr:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) TableReservationApiSpecialOccasionsCompanion *companion __attribute__((swift_name("companion")));
-- (TableReservationInt * _Nullable)component1 __attribute__((swift_name("component1()")));
-- (NSString * _Nullable)component2 __attribute__((swift_name("component2()")));
-- (NSString * _Nullable)component3 __attribute__((swift_name("component3()")));
-- (TableReservationApiSpecialOccasions *)doCopyId:(TableReservationInt * _Nullable)id nameEn:(NSString * _Nullable)nameEn nameAr:(NSString * _Nullable)nameAr __attribute__((swift_name("doCopy(id:nameEn:nameAr:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) TableReservationInt * _Nullable id __attribute__((swift_name("id")));
 @property (readonly) NSString * _Nullable nameAr __attribute__((swift_name("nameAr")));
 @property (readonly) NSString * _Nullable nameEn __attribute__((swift_name("nameEn")));
@@ -748,13 +604,6 @@ __attribute__((swift_name("ApiSpecialOccasionsResponse")))
 @interface TableReservationApiSpecialOccasionsResponse : TableReservationBase
 - (instancetype)initWithOk:(TableReservationBoolean * _Nullable)ok message:(NSString * _Nullable)message data:(NSArray<TableReservationApiSpecialOccasions *> * _Nullable)data __attribute__((swift_name("init(ok:message:data:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) TableReservationApiSpecialOccasionsResponseCompanion *companion __attribute__((swift_name("companion")));
-- (TableReservationBoolean * _Nullable)component1 __attribute__((swift_name("component1()")));
-- (NSString * _Nullable)component2 __attribute__((swift_name("component2()")));
-- (NSArray<TableReservationApiSpecialOccasions *> * _Nullable)component3 __attribute__((swift_name("component3()")));
-- (TableReservationApiSpecialOccasionsResponse *)doCopyOk:(TableReservationBoolean * _Nullable)ok message:(NSString * _Nullable)message data:(NSArray<TableReservationApiSpecialOccasions *> * _Nullable)data __attribute__((swift_name("doCopy(ok:message:data:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) NSArray<TableReservationApiSpecialOccasions *> * _Nullable data __attribute__((swift_name("data")));
 @property (readonly) NSString * _Nullable message __attribute__((swift_name("message")));
 @property (readonly) TableReservationBoolean * _Nullable ok __attribute__((swift_name("ok")));
@@ -775,13 +624,6 @@ __attribute__((swift_name("ApiVatResponse")))
 @interface TableReservationApiVatResponse : TableReservationBase
 - (instancetype)initWithVatValue:(TableReservationDouble * _Nullable)vatValue message:(NSString * _Nullable)message ok:(TableReservationBoolean * _Nullable)ok __attribute__((swift_name("init(vatValue:message:ok:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) TableReservationApiVatResponseCompanion *companion __attribute__((swift_name("companion")));
-- (TableReservationDouble * _Nullable)component1 __attribute__((swift_name("component1()")));
-- (NSString * _Nullable)component2 __attribute__((swift_name("component2()")));
-- (TableReservationBoolean * _Nullable)component3 __attribute__((swift_name("component3()")));
-- (TableReservationApiVatResponse *)doCopyVatValue:(TableReservationDouble * _Nullable)vatValue message:(NSString * _Nullable)message ok:(TableReservationBoolean * _Nullable)ok __attribute__((swift_name("doCopy(vatValue:message:ok:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) NSString * _Nullable message __attribute__((swift_name("message")));
 @property (readonly) TableReservationBoolean * _Nullable ok __attribute__((swift_name("ok")));
 @property (readonly) TableReservationDouble * _Nullable vatValue __attribute__((swift_name("vatValue")));
@@ -800,40 +642,8 @@ __attribute__((swift_name("ApiVatResponse.Companion")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("ApiVenue")))
 @interface TableReservationApiVenue : TableReservationBase
-- (instancetype)initWithId:(TableReservationInt * _Nullable)id menuUrl:(NSString * _Nullable)menuUrl logoUrl:(NSString * _Nullable)logoUrl maxBookingPeriod:(TableReservationInt * _Nullable)maxBookingPeriod reservationGuidelinesAr:(NSString * _Nullable)reservationGuidelinesAr reservationGuidelinesEn:(NSString * _Nullable)reservationGuidelinesEn aboutAr:(NSString * _Nullable)aboutAr aboutEn:(NSString * _Nullable)aboutEn nameAr:(NSString * _Nullable)nameAr nameEn:(NSString * _Nullable)nameEn areaId:(TableReservationInt * _Nullable)areaId minGuests:(TableReservationInt * _Nullable)minGuests maxGuests:(TableReservationInt * _Nullable)maxGuests isCancellable:(TableReservationBoolean * _Nullable)isCancellable headerUrl:(NSString * _Nullable)headerUrl typeId:(TableReservationInt * _Nullable)typeId venueFeatures:(NSArray<TableReservationApiVenueFeature *> * _Nullable)venueFeatures venueParkings:(NSArray<TableReservationApiVenueParking *> * _Nullable)venueParkings venuePaymentOptions:(NSArray<TableReservationApiVenuePaymentOption *> * _Nullable)venuePaymentOptions venuePics:(NSArray<TableReservationApiVenuePic *> * _Nullable)venuePics venueWorkingDays:(NSArray<TableReservationApiVenueWorkingDays *> * _Nullable)venueWorkingDays distance:(TableReservationDouble * _Nullable)distance latitude:(TableReservationDouble * _Nullable)latitude longitude:(TableReservationDouble * _Nullable)longitude cuisines:(NSArray<TableReservationApiVenueCuisine *> * _Nullable)cuisines addressEn:(NSString * _Nullable)addressEn addressAr:(NSString * _Nullable)addressAr priceScale:(NSString * _Nullable)priceScale __attribute__((swift_name("init(id:menuUrl:logoUrl:maxBookingPeriod:reservationGuidelinesAr:reservationGuidelinesEn:aboutAr:aboutEn:nameAr:nameEn:areaId:minGuests:maxGuests:isCancellable:headerUrl:typeId:venueFeatures:venueParkings:venuePaymentOptions:venuePics:venueWorkingDays:distance:latitude:longitude:cuisines:addressEn:addressAr:priceScale:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithId:(TableReservationInt * _Nullable)id menuUrl:(NSString * _Nullable)menuUrl logoUrl:(NSString * _Nullable)logoUrl maxBookingPeriod:(TableReservationInt * _Nullable)maxBookingPeriod reservationGuidelinesAr:(NSString * _Nullable)reservationGuidelinesAr reservationGuidelinesEn:(NSString * _Nullable)reservationGuidelinesEn aboutAr:(NSString * _Nullable)aboutAr aboutEn:(NSString * _Nullable)aboutEn nameAr:(NSString * _Nullable)nameAr nameEn:(NSString * _Nullable)nameEn areaId:(TableReservationInt * _Nullable)areaId minGuests:(TableReservationInt * _Nullable)minGuests maxGuests:(TableReservationInt * _Nullable)maxGuests isCancellable:(TableReservationBoolean * _Nullable)isCancellable headerUrl:(NSString * _Nullable)headerUrl typeId:(TableReservationInt * _Nullable)typeId venueFeatures:(NSArray<TableReservationApiVenueFeature *> * _Nullable)venueFeatures venueParkings:(NSArray<TableReservationApiVenueParking *> * _Nullable)venueParkings venuePaymentOptions:(NSArray<TableReservationApiVenuePaymentOption *> * _Nullable)venuePaymentOptions venuePics:(NSArray<TableReservationApiVenuePic *> * _Nullable)venuePics venueWorkingDays:(NSArray<TableReservationApiVenueWorkingDays *> * _Nullable)venueWorkingDays distance:(TableReservationDouble * _Nullable)distance latitude:(TableReservationDouble * _Nullable)latitude longitude:(TableReservationDouble * _Nullable)longitude cuisines:(NSArray<TableReservationApiVenueCuisine *> * _Nullable)cuisines addressEn:(NSString * _Nullable)addressEn addressAr:(NSString * _Nullable)addressAr priceScale:(NSString * _Nullable)priceScale reservationType:(TableReservationInt * _Nullable)reservationType __attribute__((swift_name("init(id:menuUrl:logoUrl:maxBookingPeriod:reservationGuidelinesAr:reservationGuidelinesEn:aboutAr:aboutEn:nameAr:nameEn:areaId:minGuests:maxGuests:isCancellable:headerUrl:typeId:venueFeatures:venueParkings:venuePaymentOptions:venuePics:venueWorkingDays:distance:latitude:longitude:cuisines:addressEn:addressAr:priceScale:reservationType:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) TableReservationApiVenueCompanion *companion __attribute__((swift_name("companion")));
-- (TableReservationInt * _Nullable)component1 __attribute__((swift_name("component1()")));
-- (NSString * _Nullable)component10 __attribute__((swift_name("component10()")));
-- (TableReservationInt * _Nullable)component11 __attribute__((swift_name("component11()")));
-- (TableReservationInt * _Nullable)component12 __attribute__((swift_name("component12()")));
-- (TableReservationInt * _Nullable)component13 __attribute__((swift_name("component13()")));
-- (TableReservationBoolean * _Nullable)component14 __attribute__((swift_name("component14()")));
-- (NSString * _Nullable)component15 __attribute__((swift_name("component15()")));
-- (TableReservationInt * _Nullable)component16 __attribute__((swift_name("component16()")));
-- (NSArray<TableReservationApiVenueFeature *> * _Nullable)component17 __attribute__((swift_name("component17()")));
-- (NSArray<TableReservationApiVenueParking *> * _Nullable)component18 __attribute__((swift_name("component18()")));
-- (NSArray<TableReservationApiVenuePaymentOption *> * _Nullable)component19 __attribute__((swift_name("component19()")));
-- (NSString * _Nullable)component2 __attribute__((swift_name("component2()")));
-- (NSArray<TableReservationApiVenuePic *> * _Nullable)component20 __attribute__((swift_name("component20()")));
-- (NSArray<TableReservationApiVenueWorkingDays *> * _Nullable)component21 __attribute__((swift_name("component21()")));
-- (TableReservationDouble * _Nullable)component22 __attribute__((swift_name("component22()")));
-- (TableReservationDouble * _Nullable)component23 __attribute__((swift_name("component23()")));
-- (TableReservationDouble * _Nullable)component24 __attribute__((swift_name("component24()")));
-- (NSArray<TableReservationApiVenueCuisine *> * _Nullable)component25 __attribute__((swift_name("component25()")));
-- (NSString * _Nullable)component26 __attribute__((swift_name("component26()")));
-- (NSString * _Nullable)component27 __attribute__((swift_name("component27()")));
-- (NSString * _Nullable)component28 __attribute__((swift_name("component28()")));
-- (NSString * _Nullable)component3 __attribute__((swift_name("component3()")));
-- (TableReservationInt * _Nullable)component4 __attribute__((swift_name("component4()")));
-- (NSString * _Nullable)component5 __attribute__((swift_name("component5()")));
-- (NSString * _Nullable)component6 __attribute__((swift_name("component6()")));
-- (NSString * _Nullable)component7 __attribute__((swift_name("component7()")));
-- (NSString * _Nullable)component8 __attribute__((swift_name("component8()")));
-- (NSString * _Nullable)component9 __attribute__((swift_name("component9()")));
-- (TableReservationApiVenue *)doCopyId:(TableReservationInt * _Nullable)id menuUrl:(NSString * _Nullable)menuUrl logoUrl:(NSString * _Nullable)logoUrl maxBookingPeriod:(TableReservationInt * _Nullable)maxBookingPeriod reservationGuidelinesAr:(NSString * _Nullable)reservationGuidelinesAr reservationGuidelinesEn:(NSString * _Nullable)reservationGuidelinesEn aboutAr:(NSString * _Nullable)aboutAr aboutEn:(NSString * _Nullable)aboutEn nameAr:(NSString * _Nullable)nameAr nameEn:(NSString * _Nullable)nameEn areaId:(TableReservationInt * _Nullable)areaId minGuests:(TableReservationInt * _Nullable)minGuests maxGuests:(TableReservationInt * _Nullable)maxGuests isCancellable:(TableReservationBoolean * _Nullable)isCancellable headerUrl:(NSString * _Nullable)headerUrl typeId:(TableReservationInt * _Nullable)typeId venueFeatures:(NSArray<TableReservationApiVenueFeature *> * _Nullable)venueFeatures venueParkings:(NSArray<TableReservationApiVenueParking *> * _Nullable)venueParkings venuePaymentOptions:(NSArray<TableReservationApiVenuePaymentOption *> * _Nullable)venuePaymentOptions venuePics:(NSArray<TableReservationApiVenuePic *> * _Nullable)venuePics venueWorkingDays:(NSArray<TableReservationApiVenueWorkingDays *> * _Nullable)venueWorkingDays distance:(TableReservationDouble * _Nullable)distance latitude:(TableReservationDouble * _Nullable)latitude longitude:(TableReservationDouble * _Nullable)longitude cuisines:(NSArray<TableReservationApiVenueCuisine *> * _Nullable)cuisines addressEn:(NSString * _Nullable)addressEn addressAr:(NSString * _Nullable)addressAr priceScale:(NSString * _Nullable)priceScale __attribute__((swift_name("doCopy(id:menuUrl:logoUrl:maxBookingPeriod:reservationGuidelinesAr:reservationGuidelinesEn:aboutAr:aboutEn:nameAr:nameEn:areaId:minGuests:maxGuests:isCancellable:headerUrl:typeId:venueFeatures:venueParkings:venuePaymentOptions:venuePics:venueWorkingDays:distance:latitude:longitude:cuisines:addressEn:addressAr:priceScale:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) NSString * _Nullable aboutAr __attribute__((swift_name("aboutAr")));
 @property (readonly) NSString * _Nullable aboutEn __attribute__((swift_name("aboutEn")));
 @property (readonly) NSString * _Nullable addressAr __attribute__((swift_name("addressAr")));
@@ -856,6 +666,7 @@ __attribute__((swift_name("ApiVenue")))
 @property (readonly) NSString * _Nullable priceScale __attribute__((swift_name("priceScale")));
 @property (readonly) NSString * _Nullable reservationGuidelinesAr __attribute__((swift_name("reservationGuidelinesAr")));
 @property (readonly) NSString * _Nullable reservationGuidelinesEn __attribute__((swift_name("reservationGuidelinesEn")));
+@property (readonly) TableReservationInt * _Nullable reservationType __attribute__((swift_name("reservationType")));
 @property (readonly) TableReservationInt * _Nullable typeId __attribute__((swift_name("typeId")));
 @property (readonly) NSArray<TableReservationApiVenueFeature *> * _Nullable venueFeatures __attribute__((swift_name("venueFeatures")));
 @property (readonly) NSArray<TableReservationApiVenueParking *> * _Nullable venueParkings __attribute__((swift_name("venueParkings")));
@@ -879,13 +690,6 @@ __attribute__((swift_name("ApiVenueByIdResponse")))
 @interface TableReservationApiVenueByIdResponse : TableReservationBase
 - (instancetype)initWithOk:(TableReservationBoolean * _Nullable)ok message:(NSString * _Nullable)message data:(TableReservationApiVenue * _Nullable)data __attribute__((swift_name("init(ok:message:data:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) TableReservationApiVenueByIdResponseCompanion *companion __attribute__((swift_name("companion")));
-- (TableReservationBoolean * _Nullable)component1 __attribute__((swift_name("component1()")));
-- (NSString * _Nullable)component2 __attribute__((swift_name("component2()")));
-- (TableReservationApiVenue * _Nullable)component3 __attribute__((swift_name("component3()")));
-- (TableReservationApiVenueByIdResponse *)doCopyOk:(TableReservationBoolean * _Nullable)ok message:(NSString * _Nullable)message data:(TableReservationApiVenue * _Nullable)data __attribute__((swift_name("doCopy(ok:message:data:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) TableReservationApiVenue * _Nullable data __attribute__((swift_name("data")));
 @property (readonly) NSString * _Nullable message __attribute__((swift_name("message")));
 @property (readonly) TableReservationBoolean * _Nullable ok __attribute__((swift_name("ok")));
@@ -906,13 +710,6 @@ __attribute__((swift_name("ApiVenueCuisine")))
 @interface TableReservationApiVenueCuisine : TableReservationBase
 - (instancetype)initWithId:(TableReservationInt * _Nullable)id nameEn:(NSString * _Nullable)nameEn nameAr:(NSString * _Nullable)nameAr __attribute__((swift_name("init(id:nameEn:nameAr:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) TableReservationApiVenueCuisineCompanion *companion __attribute__((swift_name("companion")));
-- (TableReservationInt * _Nullable)component1 __attribute__((swift_name("component1()")));
-- (NSString * _Nullable)component2 __attribute__((swift_name("component2()")));
-- (NSString * _Nullable)component3 __attribute__((swift_name("component3()")));
-- (TableReservationApiVenueCuisine *)doCopyId:(TableReservationInt * _Nullable)id nameEn:(NSString * _Nullable)nameEn nameAr:(NSString * _Nullable)nameAr __attribute__((swift_name("doCopy(id:nameEn:nameAr:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) TableReservationInt * _Nullable id __attribute__((swift_name("id")));
 @property (readonly) NSString * _Nullable nameAr __attribute__((swift_name("nameAr")));
 @property (readonly) NSString * _Nullable nameEn __attribute__((swift_name("nameEn")));
@@ -933,12 +730,6 @@ __attribute__((swift_name("ApiVenueFeature")))
 @interface TableReservationApiVenueFeature : TableReservationBase
 - (instancetype)initWithNameEn:(NSString * _Nullable)nameEn nameAr:(NSString * _Nullable)nameAr __attribute__((swift_name("init(nameEn:nameAr:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) TableReservationApiVenueFeatureCompanion *companion __attribute__((swift_name("companion")));
-- (NSString * _Nullable)component1 __attribute__((swift_name("component1()")));
-- (NSString * _Nullable)component2 __attribute__((swift_name("component2()")));
-- (TableReservationApiVenueFeature *)doCopyNameEn:(NSString * _Nullable)nameEn nameAr:(NSString * _Nullable)nameAr __attribute__((swift_name("doCopy(nameEn:nameAr:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) NSString * _Nullable nameAr __attribute__((swift_name("nameAr")));
 @property (readonly) NSString * _Nullable nameEn __attribute__((swift_name("nameEn")));
 @end;
@@ -958,15 +749,6 @@ __attribute__((swift_name("ApiVenuePaged")))
 @interface TableReservationApiVenuePaged : TableReservationBase
 - (instancetype)initWithCurrentPage:(TableReservationInt * _Nullable)currentPage pageSize:(TableReservationInt * _Nullable)pageSize totalRows:(TableReservationInt * _Nullable)totalRows pages:(TableReservationInt * _Nullable)pages result:(NSArray<TableReservationApiVenue *> * _Nullable)result __attribute__((swift_name("init(currentPage:pageSize:totalRows:pages:result:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) TableReservationApiVenuePagedCompanion *companion __attribute__((swift_name("companion")));
-- (TableReservationInt * _Nullable)component1 __attribute__((swift_name("component1()")));
-- (TableReservationInt * _Nullable)component2 __attribute__((swift_name("component2()")));
-- (TableReservationInt * _Nullable)component3 __attribute__((swift_name("component3()")));
-- (TableReservationInt * _Nullable)component4 __attribute__((swift_name("component4()")));
-- (NSArray<TableReservationApiVenue *> * _Nullable)component5 __attribute__((swift_name("component5()")));
-- (TableReservationApiVenuePaged *)doCopyCurrentPage:(TableReservationInt * _Nullable)currentPage pageSize:(TableReservationInt * _Nullable)pageSize totalRows:(TableReservationInt * _Nullable)totalRows pages:(TableReservationInt * _Nullable)pages result:(NSArray<TableReservationApiVenue *> * _Nullable)result __attribute__((swift_name("doCopy(currentPage:pageSize:totalRows:pages:result:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) TableReservationInt * _Nullable currentPage __attribute__((swift_name("currentPage")));
 @property (readonly) TableReservationInt * _Nullable pageSize __attribute__((swift_name("pageSize")));
 @property (readonly) TableReservationInt * _Nullable pages __attribute__((swift_name("pages")));
@@ -989,12 +771,6 @@ __attribute__((swift_name("ApiVenueParking")))
 @interface TableReservationApiVenueParking : TableReservationBase
 - (instancetype)initWithNameEn:(NSString * _Nullable)nameEn nameAr:(NSString * _Nullable)nameAr __attribute__((swift_name("init(nameEn:nameAr:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) TableReservationApiVenueParkingCompanion *companion __attribute__((swift_name("companion")));
-- (NSString * _Nullable)component1 __attribute__((swift_name("component1()")));
-- (NSString * _Nullable)component2 __attribute__((swift_name("component2()")));
-- (TableReservationApiVenueParking *)doCopyNameEn:(NSString * _Nullable)nameEn nameAr:(NSString * _Nullable)nameAr __attribute__((swift_name("doCopy(nameEn:nameAr:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) NSString * _Nullable nameAr __attribute__((swift_name("nameAr")));
 @property (readonly) NSString * _Nullable nameEn __attribute__((swift_name("nameEn")));
 @end;
@@ -1014,12 +790,6 @@ __attribute__((swift_name("ApiVenuePaymentOption")))
 @interface TableReservationApiVenuePaymentOption : TableReservationBase
 - (instancetype)initWithNameEn:(NSString * _Nullable)nameEn nameAr:(NSString * _Nullable)nameAr __attribute__((swift_name("init(nameEn:nameAr:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) TableReservationApiVenuePaymentOptionCompanion *companion __attribute__((swift_name("companion")));
-- (NSString * _Nullable)component1 __attribute__((swift_name("component1()")));
-- (NSString * _Nullable)component2 __attribute__((swift_name("component2()")));
-- (TableReservationApiVenuePaymentOption *)doCopyNameEn:(NSString * _Nullable)nameEn nameAr:(NSString * _Nullable)nameAr __attribute__((swift_name("doCopy(nameEn:nameAr:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) NSString * _Nullable nameAr __attribute__((swift_name("nameAr")));
 @property (readonly) NSString * _Nullable nameEn __attribute__((swift_name("nameEn")));
 @end;
@@ -1039,11 +809,6 @@ __attribute__((swift_name("ApiVenuePic")))
 @interface TableReservationApiVenuePic : TableReservationBase
 - (instancetype)initWithPicUrl:(NSString * _Nullable)picUrl __attribute__((swift_name("init(picUrl:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) TableReservationApiVenuePicCompanion *companion __attribute__((swift_name("companion")));
-- (NSString * _Nullable)component1 __attribute__((swift_name("component1()")));
-- (TableReservationApiVenuePic *)doCopyPicUrl:(NSString * _Nullable)picUrl __attribute__((swift_name("doCopy(picUrl:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) NSString * _Nullable picUrl __attribute__((swift_name("picUrl")));
 @end;
 
@@ -1062,13 +827,6 @@ __attribute__((swift_name("ApiVenueResponse")))
 @interface TableReservationApiVenueResponse : TableReservationBase
 - (instancetype)initWithOk:(TableReservationBoolean * _Nullable)ok message:(NSString * _Nullable)message data:(TableReservationApiVenuePaged * _Nullable)data __attribute__((swift_name("init(ok:message:data:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) TableReservationApiVenueResponseCompanion *companion __attribute__((swift_name("companion")));
-- (TableReservationBoolean * _Nullable)component1 __attribute__((swift_name("component1()")));
-- (NSString * _Nullable)component2 __attribute__((swift_name("component2()")));
-- (TableReservationApiVenuePaged * _Nullable)component3 __attribute__((swift_name("component3()")));
-- (TableReservationApiVenueResponse *)doCopyOk:(TableReservationBoolean * _Nullable)ok message:(NSString * _Nullable)message data:(TableReservationApiVenuePaged * _Nullable)data __attribute__((swift_name("doCopy(ok:message:data:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) TableReservationApiVenuePaged * _Nullable data __attribute__((swift_name("data")));
 @property (readonly) NSString * _Nullable message __attribute__((swift_name("message")));
 @property (readonly) TableReservationBoolean * _Nullable ok __attribute__((swift_name("ok")));
@@ -1089,13 +847,6 @@ __attribute__((swift_name("ApiVenueWorkingDays")))
 @interface TableReservationApiVenueWorkingDays : TableReservationBase
 - (instancetype)initWithNameEn:(NSString * _Nullable)nameEn nameAr:(NSString * _Nullable)nameAr venueWorkingHours:(NSArray<TableReservationVenueWorkingHour *> * _Nullable)venueWorkingHours __attribute__((swift_name("init(nameEn:nameAr:venueWorkingHours:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) TableReservationApiVenueWorkingDaysCompanion *companion __attribute__((swift_name("companion")));
-- (NSString * _Nullable)component1 __attribute__((swift_name("component1()")));
-- (NSString * _Nullable)component2 __attribute__((swift_name("component2()")));
-- (NSArray<TableReservationVenueWorkingHour *> * _Nullable)component3 __attribute__((swift_name("component3()")));
-- (TableReservationApiVenueWorkingDays *)doCopyNameEn:(NSString * _Nullable)nameEn nameAr:(NSString * _Nullable)nameAr venueWorkingHours:(NSArray<TableReservationVenueWorkingHour *> * _Nullable)venueWorkingHours __attribute__((swift_name("doCopy(nameEn:nameAr:venueWorkingHours:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) NSString * _Nullable nameAr __attribute__((swift_name("nameAr")));
 @property (readonly) NSString * _Nullable nameEn __attribute__((swift_name("nameEn")));
 @property (readonly) NSArray<TableReservationVenueWorkingHour *> * _Nullable venueWorkingHours __attribute__((swift_name("venueWorkingHours")));
@@ -1116,13 +867,6 @@ __attribute__((swift_name("ApiZoneType")))
 @interface TableReservationApiZoneType : TableReservationBase
 - (instancetype)initWithId:(TableReservationInt * _Nullable)id nameEn:(NSString * _Nullable)nameEn nameAr:(NSString * _Nullable)nameAr __attribute__((swift_name("init(id:nameEn:nameAr:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) TableReservationApiZoneTypeCompanion *companion __attribute__((swift_name("companion")));
-- (TableReservationInt * _Nullable)component1 __attribute__((swift_name("component1()")));
-- (NSString * _Nullable)component2 __attribute__((swift_name("component2()")));
-- (NSString * _Nullable)component3 __attribute__((swift_name("component3()")));
-- (TableReservationApiZoneType *)doCopyId:(TableReservationInt * _Nullable)id nameEn:(NSString * _Nullable)nameEn nameAr:(NSString * _Nullable)nameAr __attribute__((swift_name("doCopy(id:nameEn:nameAr:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) TableReservationInt * _Nullable id __attribute__((swift_name("id")));
 @property (readonly) NSString * _Nullable nameAr __attribute__((swift_name("nameAr")));
 @property (readonly) NSString * _Nullable nameEn __attribute__((swift_name("nameEn")));
@@ -1143,13 +887,6 @@ __attribute__((swift_name("ApiZoneTypeResponse")))
 @interface TableReservationApiZoneTypeResponse : TableReservationBase
 - (instancetype)initWithOk:(TableReservationBoolean * _Nullable)ok message:(NSString * _Nullable)message data:(NSArray<TableReservationApiZoneType *> * _Nullable)data __attribute__((swift_name("init(ok:message:data:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) TableReservationApiZoneTypeResponseCompanion *companion __attribute__((swift_name("companion")));
-- (TableReservationBoolean * _Nullable)component1 __attribute__((swift_name("component1()")));
-- (NSString * _Nullable)component2 __attribute__((swift_name("component2()")));
-- (NSArray<TableReservationApiZoneType *> * _Nullable)component3 __attribute__((swift_name("component3()")));
-- (TableReservationApiZoneTypeResponse *)doCopyOk:(TableReservationBoolean * _Nullable)ok message:(NSString * _Nullable)message data:(NSArray<TableReservationApiZoneType *> * _Nullable)data __attribute__((swift_name("doCopy(ok:message:data:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) NSArray<TableReservationApiZoneType *> * _Nullable data __attribute__((swift_name("data")));
 @property (readonly) NSString * _Nullable message __attribute__((swift_name("message")));
 @property (readonly) TableReservationBoolean * _Nullable ok __attribute__((swift_name("ok")));
@@ -1170,15 +907,6 @@ __attribute__((swift_name("CitiesList")))
 @interface TableReservationCitiesList : TableReservationBase
 - (instancetype)initWithCityId:(TableReservationInt * _Nullable)cityId cityName:(NSString * _Nullable)cityName latitude:(TableReservationDouble * _Nullable)latitude longitude:(TableReservationDouble * _Nullable)longitude orderActive:(NSString * _Nullable)orderActive __attribute__((swift_name("init(cityId:cityName:latitude:longitude:orderActive:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) TableReservationCitiesListCompanion *companion __attribute__((swift_name("companion")));
-- (TableReservationInt * _Nullable)component1 __attribute__((swift_name("component1()")));
-- (NSString * _Nullable)component2 __attribute__((swift_name("component2()")));
-- (TableReservationDouble * _Nullable)component3 __attribute__((swift_name("component3()")));
-- (TableReservationDouble * _Nullable)component4 __attribute__((swift_name("component4()")));
-- (NSString * _Nullable)component5 __attribute__((swift_name("component5()")));
-- (TableReservationCitiesList *)doCopyCityId:(TableReservationInt * _Nullable)cityId cityName:(NSString * _Nullable)cityName latitude:(TableReservationDouble * _Nullable)latitude longitude:(TableReservationDouble * _Nullable)longitude orderActive:(NSString * _Nullable)orderActive __attribute__((swift_name("doCopy(cityId:cityName:latitude:longitude:orderActive:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) TableReservationInt * _Nullable cityId __attribute__((swift_name("cityId")));
 @property (readonly) NSString * _Nullable cityName __attribute__((swift_name("cityName")));
 @property (readonly) TableReservationDouble * _Nullable latitude __attribute__((swift_name("latitude")));
@@ -1200,15 +928,6 @@ __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("GetAreasList")))
 @interface TableReservationGetAreasList : TableReservationBase
 - (instancetype)initWithLatitude:(double)latitude longitude:(double)longitude cityId:(TableReservationInt * _Nullable)cityId pageNumber:(int32_t)pageNumber pageSize:(int32_t)pageSize __attribute__((swift_name("init(latitude:longitude:cityId:pageNumber:pageSize:)"))) __attribute__((objc_designated_initializer));
-- (double)component1 __attribute__((swift_name("component1()")));
-- (double)component2 __attribute__((swift_name("component2()")));
-- (TableReservationInt * _Nullable)component3 __attribute__((swift_name("component3()")));
-- (int32_t)component4 __attribute__((swift_name("component4()")));
-- (int32_t)component5 __attribute__((swift_name("component5()")));
-- (TableReservationGetAreasList *)doCopyLatitude:(double)latitude longitude:(double)longitude cityId:(TableReservationInt * _Nullable)cityId pageNumber:(int32_t)pageNumber pageSize:(int32_t)pageSize __attribute__((swift_name("doCopy(latitude:longitude:cityId:pageNumber:pageSize:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) TableReservationInt * _Nullable cityId __attribute__((swift_name("cityId")));
 @property (readonly) double latitude __attribute__((swift_name("latitude")));
 @property (readonly) double longitude __attribute__((swift_name("longitude")));
@@ -1220,13 +939,6 @@ __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("GetRestaurantsAvailableSlots")))
 @interface TableReservationGetRestaurantsAvailableSlots : TableReservationBase
 - (instancetype)initWithVenueId:(int32_t)venueId desiredDate:(NSString *)desiredDate personsCount:(int32_t)personsCount __attribute__((swift_name("init(venueId:desiredDate:personsCount:)"))) __attribute__((objc_designated_initializer));
-- (int32_t)component1 __attribute__((swift_name("component1()")));
-- (NSString *)component2 __attribute__((swift_name("component2()")));
-- (int32_t)component3 __attribute__((swift_name("component3()")));
-- (TableReservationGetRestaurantsAvailableSlots *)doCopyVenueId:(int32_t)venueId desiredDate:(NSString *)desiredDate personsCount:(int32_t)personsCount __attribute__((swift_name("doCopy(venueId:desiredDate:personsCount:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) NSString *desiredDate __attribute__((swift_name("desiredDate")));
 @property (readonly) int32_t personsCount __attribute__((swift_name("personsCount")));
 @property (readonly) int32_t venueId __attribute__((swift_name("venueId")));
@@ -1265,12 +977,6 @@ __attribute__((swift_name("RemoteError")))
 @interface TableReservationRemoteError : TableReservationBase
 - (instancetype)initWithStatusCode:(int32_t)statusCode message:(NSString *)message __attribute__((swift_name("init(statusCode:message:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) TableReservationRemoteErrorCompanion *companion __attribute__((swift_name("companion")));
-- (int32_t)component1 __attribute__((swift_name("component1()")));
-- (NSString *)component2 __attribute__((swift_name("component2()")));
-- (TableReservationRemoteError *)doCopyStatusCode:(int32_t)statusCode message:(NSString *)message __attribute__((swift_name("doCopy(statusCode:message:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) NSString *message __attribute__((swift_name("message")));
 @property (readonly) int32_t statusCode __attribute__((swift_name("statusCode")));
 @end;
@@ -1290,12 +996,6 @@ __attribute__((swift_name("VenueWorkingHour")))
 @interface TableReservationVenueWorkingHour : TableReservationBase
 - (instancetype)initWithEndTime:(NSString * _Nullable)endTime startTime:(NSString * _Nullable)startTime __attribute__((swift_name("init(endTime:startTime:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) TableReservationVenueWorkingHourCompanion *companion __attribute__((swift_name("companion")));
-- (NSString * _Nullable)component1 __attribute__((swift_name("component1()")));
-- (NSString * _Nullable)component2 __attribute__((swift_name("component2()")));
-- (TableReservationVenueWorkingHour *)doCopyEndTime:(NSString * _Nullable)endTime startTime:(NSString * _Nullable)startTime __attribute__((swift_name("doCopy(endTime:startTime:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) NSString * _Nullable endTime __attribute__((swift_name("endTime")));
 @property (readonly) NSString * _Nullable startTime __attribute__((swift_name("startTime")));
 @end;
@@ -1315,11 +1015,6 @@ __attribute__((swift_name("CancelReservationByUserRequest")))
 @interface TableReservationCancelReservationByUserRequest : TableReservationBase
 - (instancetype)initWithReservationId:(NSString * _Nullable)reservationId __attribute__((swift_name("init(reservationId:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) TableReservationCancelReservationByUserRequestCompanion *companion __attribute__((swift_name("companion")));
-- (NSString * _Nullable)component1 __attribute__((swift_name("component1()")));
-- (TableReservationCancelReservationByUserRequest *)doCopyReservationId:(NSString * _Nullable)reservationId __attribute__((swift_name("doCopy(reservationId:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) NSString * _Nullable reservationId __attribute__((swift_name("reservationId")));
 @end;
 
@@ -1338,16 +1033,6 @@ __attribute__((swift_name("ReserveRequestModel")))
 @interface TableReservationReserveRequestModel : TableReservationBase
 - (instancetype)initWithVenueId:(TableReservationInt * _Nullable)venueId desiredDateTime:(NSString * _Nullable)desiredDateTime remarks:(NSString * _Nullable)remarks personsCount:(TableReservationInt * _Nullable)personsCount venueZoneId:(TableReservationInt * _Nullable)venueZoneId specialOccasionId:(TableReservationInt * _Nullable)specialOccasionId __attribute__((swift_name("init(venueId:desiredDateTime:remarks:personsCount:venueZoneId:specialOccasionId:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) TableReservationReserveRequestModelCompanion *companion __attribute__((swift_name("companion")));
-- (TableReservationInt * _Nullable)component1 __attribute__((swift_name("component1()")));
-- (NSString * _Nullable)component2 __attribute__((swift_name("component2()")));
-- (NSString * _Nullable)component3 __attribute__((swift_name("component3()")));
-- (TableReservationInt * _Nullable)component4 __attribute__((swift_name("component4()")));
-- (TableReservationInt * _Nullable)component5 __attribute__((swift_name("component5()")));
-- (TableReservationInt * _Nullable)component6 __attribute__((swift_name("component6()")));
-- (TableReservationReserveRequestModel *)doCopyVenueId:(TableReservationInt * _Nullable)venueId desiredDateTime:(NSString * _Nullable)desiredDateTime remarks:(NSString * _Nullable)remarks personsCount:(TableReservationInt * _Nullable)personsCount venueZoneId:(TableReservationInt * _Nullable)venueZoneId specialOccasionId:(TableReservationInt * _Nullable)specialOccasionId __attribute__((swift_name("doCopy(venueId:desiredDateTime:remarks:personsCount:venueZoneId:specialOccasionId:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) NSString * _Nullable desiredDateTime __attribute__((swift_name("desiredDateTime")));
 @property (readonly) TableReservationInt * _Nullable personsCount __attribute__((swift_name("personsCount")));
 @property (readonly) NSString * _Nullable remarks __attribute__((swift_name("remarks")));
@@ -1370,18 +1055,6 @@ __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("Area")))
 @interface TableReservationArea : TableReservationBase
 - (instancetype)initWithId:(int32_t)id name:(NSString *)name isActive:(BOOL)isActive availableFrom:(NSString *)availableFrom availableTo:(NSString *)availableTo picUrl:(NSString *)picUrl latitude:(double)latitude longitude:(double)longitude __attribute__((swift_name("init(id:name:isActive:availableFrom:availableTo:picUrl:latitude:longitude:)"))) __attribute__((objc_designated_initializer));
-- (int32_t)component1 __attribute__((swift_name("component1()")));
-- (NSString *)component2 __attribute__((swift_name("component2()")));
-- (BOOL)component3 __attribute__((swift_name("component3()")));
-- (NSString *)component4 __attribute__((swift_name("component4()")));
-- (NSString *)component5 __attribute__((swift_name("component5()")));
-- (NSString *)component6 __attribute__((swift_name("component6()")));
-- (double)component7 __attribute__((swift_name("component7()")));
-- (double)component8 __attribute__((swift_name("component8()")));
-- (TableReservationArea *)doCopyId:(int32_t)id name:(NSString *)name isActive:(BOOL)isActive availableFrom:(NSString *)availableFrom availableTo:(NSString *)availableTo picUrl:(NSString *)picUrl latitude:(double)latitude longitude:(double)longitude __attribute__((swift_name("doCopy(id:name:isActive:availableFrom:availableTo:picUrl:latitude:longitude:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) NSString *availableFrom __attribute__((swift_name("availableFrom")));
 @property (readonly) NSString *availableTo __attribute__((swift_name("availableTo")));
 @property (readonly) int32_t id __attribute__((swift_name("id")));
@@ -1396,12 +1069,6 @@ __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("CancelReservation")))
 @interface TableReservationCancelReservation : TableReservationBase
 - (instancetype)initWithIsCancelled:(BOOL)isCancelled message:(NSString *)message __attribute__((swift_name("init(isCancelled:message:)"))) __attribute__((objc_designated_initializer));
-- (BOOL)component1 __attribute__((swift_name("component1()")));
-- (NSString *)component2 __attribute__((swift_name("component2()")));
-- (TableReservationCancelReservation *)doCopyIsCancelled:(BOOL)isCancelled message:(NSString *)message __attribute__((swift_name("doCopy(isCancelled:message:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) BOOL isCancelled __attribute__((swift_name("isCancelled")));
 @property (readonly) NSString *message __attribute__((swift_name("message")));
 @end;
@@ -1410,12 +1077,6 @@ __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("City")))
 @interface TableReservationCity : TableReservationBase
 - (instancetype)initWithId:(int32_t)id name:(NSString *)name __attribute__((swift_name("init(id:name:)"))) __attribute__((objc_designated_initializer));
-- (int32_t)component1 __attribute__((swift_name("component1()")));
-- (NSString *)component2 __attribute__((swift_name("component2()")));
-- (TableReservationCity *)doCopyId:(int32_t)id name:(NSString *)name __attribute__((swift_name("doCopy(id:name:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) int32_t id __attribute__((swift_name("id")));
 @property (readonly) NSString *name __attribute__((swift_name("name")));
 @end;
@@ -1424,12 +1085,6 @@ __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("Cuisine")))
 @interface TableReservationCuisine : TableReservationBase
 - (instancetype)initWithId:(int32_t)id name:(NSString *)name __attribute__((swift_name("init(id:name:)"))) __attribute__((objc_designated_initializer));
-- (int32_t)component1 __attribute__((swift_name("component1()")));
-- (NSString *)component2 __attribute__((swift_name("component2()")));
-- (TableReservationCuisine *)doCopyId:(int32_t)id name:(NSString *)name __attribute__((swift_name("doCopy(id:name:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) int32_t id __attribute__((swift_name("id")));
 @property (readonly) NSString *name __attribute__((swift_name("name")));
 @end;
@@ -1533,18 +1188,23 @@ __attribute__((swift_name("ReservationStatus")))
 @end;
 
 __attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ReservationType")))
+@interface TableReservationReservationType : TableReservationKotlinEnum<TableReservationReservationType *>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
+- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (class, readonly) TableReservationReservationType *unknown __attribute__((swift_name("unknown")));
+@property (class, readonly) TableReservationReservationType *time __attribute__((swift_name("time")));
+@property (class, readonly) TableReservationReservationType *seats __attribute__((swift_name("seats")));
+@property (class, readonly) TableReservationReservationType *tables __attribute__((swift_name("tables")));
++ (TableReservationKotlinArray<TableReservationReservationType *> *)values __attribute__((swift_name("values()")));
+@property (readonly) int32_t id __attribute__((swift_name("id")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("Reserve")))
 @interface TableReservationReserve : TableReservationBase
 - (instancetype)initWithTotalAmount:(double)totalAmount referenceNo:(NSString *)referenceNo confirmationMessage:(NSString *)confirmationMessage isFreeBooked:(BOOL)isFreeBooked redirectUrl:(NSString *)redirectUrl __attribute__((swift_name("init(totalAmount:referenceNo:confirmationMessage:isFreeBooked:redirectUrl:)"))) __attribute__((objc_designated_initializer));
-- (double)component1 __attribute__((swift_name("component1()")));
-- (NSString *)component2 __attribute__((swift_name("component2()")));
-- (NSString *)component3 __attribute__((swift_name("component3()")));
-- (BOOL)component4 __attribute__((swift_name("component4()")));
-- (NSString *)component5 __attribute__((swift_name("component5()")));
-- (TableReservationReserve *)doCopyTotalAmount:(double)totalAmount referenceNo:(NSString *)referenceNo confirmationMessage:(NSString *)confirmationMessage isFreeBooked:(BOOL)isFreeBooked redirectUrl:(NSString *)redirectUrl __attribute__((swift_name("doCopy(totalAmount:referenceNo:confirmationMessage:isFreeBooked:redirectUrl:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) NSString *confirmationMessage __attribute__((swift_name("confirmationMessage")));
 @property (readonly) BOOL isFreeBooked __attribute__((swift_name("isFreeBooked")));
 @property (readonly) NSString *redirectUrl __attribute__((swift_name("redirectUrl")));
@@ -1556,16 +1216,6 @@ __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("RestaurantsAvailableSlots")))
 @interface TableReservationRestaurantsAvailableSlots : TableReservationBase
 - (instancetype)initWithVenueId:(int32_t)venueId jahezId:(NSString *)jahezId pricePerPerson:(double)pricePerPerson venueZoneId:(int32_t)venueZoneId name:(NSString *)name slots:(NSArray<NSString *> *)slots __attribute__((swift_name("init(venueId:jahezId:pricePerPerson:venueZoneId:name:slots:)"))) __attribute__((objc_designated_initializer));
-- (int32_t)component1 __attribute__((swift_name("component1()")));
-- (NSString *)component2 __attribute__((swift_name("component2()")));
-- (double)component3 __attribute__((swift_name("component3()")));
-- (int32_t)component4 __attribute__((swift_name("component4()")));
-- (NSString *)component5 __attribute__((swift_name("component5()")));
-- (NSArray<NSString *> *)component6 __attribute__((swift_name("component6()")));
-- (TableReservationRestaurantsAvailableSlots *)doCopyVenueId:(int32_t)venueId jahezId:(NSString *)jahezId pricePerPerson:(double)pricePerPerson venueZoneId:(int32_t)venueZoneId name:(NSString *)name slots:(NSArray<NSString *> *)slots __attribute__((swift_name("doCopy(venueId:jahezId:pricePerPerson:venueZoneId:name:slots:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) NSString *jahezId __attribute__((swift_name("jahezId")));
 @property (readonly) NSString *name __attribute__((swift_name("name")));
 @property (readonly) double pricePerPerson __attribute__((swift_name("pricePerPerson")));
@@ -1578,12 +1228,6 @@ __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("SpecialOccasion")))
 @interface TableReservationSpecialOccasion : TableReservationBase
 - (instancetype)initWithId:(int32_t)id name:(NSString *)name __attribute__((swift_name("init(id:name:)"))) __attribute__((objc_designated_initializer));
-- (int32_t)component1 __attribute__((swift_name("component1()")));
-- (NSString *)component2 __attribute__((swift_name("component2()")));
-- (TableReservationSpecialOccasion *)doCopyId:(int32_t)id name:(NSString *)name __attribute__((swift_name("doCopy(id:name:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) int32_t id __attribute__((swift_name("id")));
 @property (readonly) NSString *name __attribute__((swift_name("name")));
 @end;
@@ -1592,46 +1236,14 @@ __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("Vat")))
 @interface TableReservationVat : TableReservationBase
 - (instancetype)initWithValue:(double)value __attribute__((swift_name("init(value:)"))) __attribute__((objc_designated_initializer));
-- (double)component1 __attribute__((swift_name("component1()")));
-- (TableReservationVat *)doCopyValue:(double)value __attribute__((swift_name("doCopy(value:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) double value __attribute__((swift_name("value")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("Venue")))
 @interface TableReservationVenue : TableReservationBase
-- (instancetype)initWithId:(int32_t)id name:(NSString *)name cuisine:(NSString *)cuisine distance:(NSString *)distance rating:(NSString *)rating ratingCount:(int32_t)ratingCount logoUrl:(NSString *)logoUrl coverUrl:(NSString *)coverUrl menuUrl:(NSString *)menuUrl locationUrl:(NSString *)locationUrl about:(NSString *)about guidelines:(NSString *)guidelines isCancellable:(BOOL)isCancellable minGuests:(int32_t)minGuests maxGuests:(int32_t)maxGuests features:(NSArray<NSString *> *)features images:(NSArray<NSString *> *)images parking:(TableReservationVenueFeature *)parking paymentOptions:(TableReservationVenueFeature *)paymentOptions workingDays:(TableReservationVenueFeature *)workingDays priceScale:(NSString *)priceScale bookingWindow:(int32_t)bookingWindow address:(NSString *)address __attribute__((swift_name("init(id:name:cuisine:distance:rating:ratingCount:logoUrl:coverUrl:menuUrl:locationUrl:about:guidelines:isCancellable:minGuests:maxGuests:features:images:parking:paymentOptions:workingDays:priceScale:bookingWindow:address:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithId:(int32_t)id name:(NSString *)name cuisine:(NSString *)cuisine distance:(NSString *)distance rating:(NSString *)rating ratingCount:(int32_t)ratingCount logoUrl:(NSString *)logoUrl coverUrl:(NSString *)coverUrl menuUrl:(NSString *)menuUrl locationUrl:(NSString *)locationUrl about:(NSString *)about guidelines:(NSString *)guidelines isCancellable:(BOOL)isCancellable minGuests:(int32_t)minGuests maxGuests:(int32_t)maxGuests features:(NSArray<NSString *> *)features images:(NSArray<NSString *> *)images parking:(TableReservationVenueFeature *)parking paymentOptions:(TableReservationVenueFeature *)paymentOptions workingDays:(TableReservationVenueFeature *)workingDays priceScale:(NSString *)priceScale bookingWindow:(int32_t)bookingWindow address:(NSString *)address reservationType:(TableReservationReservationType *)reservationType __attribute__((swift_name("init(id:name:cuisine:distance:rating:ratingCount:logoUrl:coverUrl:menuUrl:locationUrl:about:guidelines:isCancellable:minGuests:maxGuests:features:images:parking:paymentOptions:workingDays:priceScale:bookingWindow:address:reservationType:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) TableReservationVenueCompanion *companion __attribute__((swift_name("companion")));
-- (int32_t)component1 __attribute__((swift_name("component1()")));
-- (NSString *)component10 __attribute__((swift_name("component10()")));
-- (NSString *)component11 __attribute__((swift_name("component11()")));
-- (NSString *)component12 __attribute__((swift_name("component12()")));
-- (BOOL)component13 __attribute__((swift_name("component13()")));
-- (int32_t)component14 __attribute__((swift_name("component14()")));
-- (int32_t)component15 __attribute__((swift_name("component15()")));
-- (NSArray<NSString *> *)component16 __attribute__((swift_name("component16()")));
-- (NSArray<NSString *> *)component17 __attribute__((swift_name("component17()")));
-- (TableReservationVenueFeature *)component18 __attribute__((swift_name("component18()")));
-- (TableReservationVenueFeature *)component19 __attribute__((swift_name("component19()")));
-- (NSString *)component2 __attribute__((swift_name("component2()")));
-- (TableReservationVenueFeature *)component20 __attribute__((swift_name("component20()")));
-- (NSString *)component21 __attribute__((swift_name("component21()")));
-- (int32_t)component22 __attribute__((swift_name("component22()")));
-- (NSString *)component23 __attribute__((swift_name("component23()")));
-- (NSString *)component3 __attribute__((swift_name("component3()")));
-- (NSString *)component4 __attribute__((swift_name("component4()")));
-- (NSString *)component5 __attribute__((swift_name("component5()")));
-- (int32_t)component6 __attribute__((swift_name("component6()")));
-- (NSString *)component7 __attribute__((swift_name("component7()")));
-- (NSString *)component8 __attribute__((swift_name("component8()")));
-- (NSString *)component9 __attribute__((swift_name("component9()")));
-- (TableReservationVenue *)doCopyId:(int32_t)id name:(NSString *)name cuisine:(NSString *)cuisine distance:(NSString *)distance rating:(NSString *)rating ratingCount:(int32_t)ratingCount logoUrl:(NSString *)logoUrl coverUrl:(NSString *)coverUrl menuUrl:(NSString *)menuUrl locationUrl:(NSString *)locationUrl about:(NSString *)about guidelines:(NSString *)guidelines isCancellable:(BOOL)isCancellable minGuests:(int32_t)minGuests maxGuests:(int32_t)maxGuests features:(NSArray<NSString *> *)features images:(NSArray<NSString *> *)images parking:(TableReservationVenueFeature *)parking paymentOptions:(TableReservationVenueFeature *)paymentOptions workingDays:(TableReservationVenueFeature *)workingDays priceScale:(NSString *)priceScale bookingWindow:(int32_t)bookingWindow address:(NSString *)address __attribute__((swift_name("doCopy(id:name:cuisine:distance:rating:ratingCount:logoUrl:coverUrl:menuUrl:locationUrl:about:guidelines:isCancellable:minGuests:maxGuests:features:images:parking:paymentOptions:workingDays:priceScale:bookingWindow:address:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) NSString *about __attribute__((swift_name("about")));
 @property (readonly) NSString *address __attribute__((swift_name("address")));
 @property (readonly) int32_t bookingWindow __attribute__((swift_name("bookingWindow")));
@@ -1643,6 +1255,7 @@ __attribute__((swift_name("Venue")))
 @property (readonly) int32_t id __attribute__((swift_name("id")));
 @property (readonly) NSArray<NSString *> *images __attribute__((swift_name("images")));
 @property (readonly) BOOL isCancellable __attribute__((swift_name("isCancellable")));
+@property (readonly) BOOL isTableType __attribute__((swift_name("isTableType")));
 @property (readonly) NSString *locationUrl __attribute__((swift_name("locationUrl")));
 @property (readonly) NSString *logoUrl __attribute__((swift_name("logoUrl")));
 @property (readonly) int32_t maxGuests __attribute__((swift_name("maxGuests")));
@@ -1654,6 +1267,7 @@ __attribute__((swift_name("Venue")))
 @property (readonly) NSString *priceScale __attribute__((swift_name("priceScale")));
 @property (readonly) NSString *rating __attribute__((swift_name("rating")));
 @property (readonly) int32_t ratingCount __attribute__((swift_name("ratingCount")));
+@property (readonly) TableReservationReservationType *reservationType __attribute__((swift_name("reservationType")));
 @property (readonly) TableReservationVenueFeature *workingDays __attribute__((swift_name("workingDays")));
 @end;
 
@@ -1672,12 +1286,6 @@ __attribute__((swift_name("VenueFeature")))
 @interface TableReservationVenueFeature : TableReservationBase
 - (instancetype)initWithTitle:(NSString *)title description:(NSString *)description __attribute__((swift_name("init(title:description:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) TableReservationVenueFeatureCompanion *companion __attribute__((swift_name("companion")));
-- (NSString *)component1 __attribute__((swift_name("component1()")));
-- (NSString *)component2 __attribute__((swift_name("component2()")));
-- (TableReservationVenueFeature *)doCopyTitle:(NSString *)title description:(NSString *)description __attribute__((swift_name("doCopy(title:description:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) NSString *description_ __attribute__((swift_name("description_")));
 @property (readonly) NSString *title __attribute__((swift_name("title")));
 @end;
@@ -1697,12 +1305,6 @@ __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("ZoneType")))
 @interface TableReservationZoneType : TableReservationBase
 - (instancetype)initWithId:(int32_t)id name:(NSString *)name __attribute__((swift_name("init(id:name:)"))) __attribute__((objc_designated_initializer));
-- (int32_t)component1 __attribute__((swift_name("component1()")));
-- (NSString *)component2 __attribute__((swift_name("component2()")));
-- (TableReservationZoneType *)doCopyId:(int32_t)id name:(NSString *)name __attribute__((swift_name("doCopy(id:name:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) int32_t id __attribute__((swift_name("id")));
 @property (readonly) NSString *name __attribute__((swift_name("name")));
 @end;
@@ -2171,6 +1773,12 @@ __attribute__((swift_name("ReservationKt")))
 @interface TableReservationReservationKt : TableReservationBase
 + (NSArray<TableReservationReservation *> *)filterActive:(NSArray<TableReservationReservation *> *)receiver __attribute__((swift_name("filterActive(_:)")));
 + (NSArray<TableReservationReservation *> *)filterNotActive:(NSArray<TableReservationReservation *> *)receiver __attribute__((swift_name("filterNotActive(_:)")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("VenueKt")))
+@interface TableReservationVenueKt : TableReservationBase
++ (TableReservationReservationType *)assignTypeId:(int32_t)id __attribute__((swift_name("assignType(id:)")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
