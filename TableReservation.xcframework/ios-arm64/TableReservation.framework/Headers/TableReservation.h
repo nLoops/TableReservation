@@ -1031,9 +1031,10 @@ __attribute__((swift_name("CancelReservationByUserRequest.Companion")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("ReserveRequestModel")))
 @interface TableReservationReserveRequestModel : TableReservationBase
-- (instancetype)initWithVenueId:(TableReservationInt * _Nullable)venueId desiredDateTime:(NSString * _Nullable)desiredDateTime remarks:(NSString * _Nullable)remarks personsCount:(TableReservationInt * _Nullable)personsCount venueZoneId:(TableReservationInt * _Nullable)venueZoneId specialOccasionId:(TableReservationInt * _Nullable)specialOccasionId __attribute__((swift_name("init(venueId:desiredDateTime:remarks:personsCount:venueZoneId:specialOccasionId:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithVenueId:(TableReservationInt * _Nullable)venueId desiredDateTime:(NSString * _Nullable)desiredDateTime remarks:(NSString * _Nullable)remarks personsCount:(TableReservationInt * _Nullable)personsCount venueZoneId:(TableReservationInt * _Nullable)venueZoneId specialOccasionId:(TableReservationInt * _Nullable)specialOccasionId isNextDay:(TableReservationBoolean * _Nullable)isNextDay __attribute__((swift_name("init(venueId:desiredDateTime:remarks:personsCount:venueZoneId:specialOccasionId:isNextDay:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) TableReservationReserveRequestModelCompanion *companion __attribute__((swift_name("companion")));
 @property (readonly) NSString * _Nullable desiredDateTime __attribute__((swift_name("desiredDateTime")));
+@property (readonly) TableReservationBoolean * _Nullable isNextDay __attribute__((swift_name("isNextDay")));
 @property (readonly) TableReservationInt * _Nullable personsCount __attribute__((swift_name("personsCount")));
 @property (readonly) NSString * _Nullable remarks __attribute__((swift_name("remarks")));
 @property (readonly) TableReservationInt * _Nullable specialOccasionId __attribute__((swift_name("specialOccasionId")));
